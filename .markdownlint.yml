@@ -1,0 +1,11 @@
+# Blackdoor Industries — org-wide markdownlint config
+# Repos inherit this unless they have their own .markdownlint.yml
+
+# Line length — disabled for docs (prose wraps naturally)
+MD013: false
+
+# Table alignment — disabled (tables render fine without aligned pipes)
+MD060: false
+
+# Bare URLs — disabled (email addresses and simple URLs are fine bare)
+MD034: false
