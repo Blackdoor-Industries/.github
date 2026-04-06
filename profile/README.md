@@ -2,14 +2,15 @@
 
 # Blackdoor Industries
 
-**Two founders and a fleet of AI agents building what used to require large teams.**
+**We provide the AI workforce that runs your autonomous business.**
 
-We operate three product lines from a two-person team, using AI agents for
-research, implementation, testing, and deployment — a deliberate constraint
-designed to stress-test how far agent-assisted development can scale.
-Our goal is to enable solo founders and small teams to achieve more than
-humanly possible. We think this changes how the world works.
-We intend to demonstrate it.
+We empower solo founders, small businesses, and enterprises to achieve more than humanly possible.
+
+We provide the executive AI teams (CEOs, CTOs, CMOs) cascading down to project managers, researchers, and specialized field agents, that work together to eliminate the manual overhead of starting or running your business.
+
+Our agents execute on your specific vision, values, standards, and goals with minimal human friction, allowing you to turn brand new ventures into fully automated businesses or migrate existing manual operations to our autonomous platform.
+
+We are not just creating technology; we are changing how the world works.
 
 ---
 
@@ -23,67 +24,89 @@ We intend to demonstrate it.
 
 ---
 
-## What We're Building
+## Organization
+
+```mermaid
+graph TD
+    BD["Blackdoor Industries"]
+    ATLAS["Atlas"]
+    CONST["Constellation"]
+    DEMI["Demigod"]
+    VN["VN Game"]
+    SHOOT["Shootout"]
+    LIFE["LifeOS"]
+    WEALTH["WealthOS"]
+    HEALTH["HealthOS"]
+
+    BD --> ATLAS
+    ATLAS --> CONST
+    ATLAS --> DEMI
+    CONST --> VN
+    CONST --> SHOOT
+    DEMI --> LIFE
+    LIFE --> WEALTH
+    LIFE --> HEALTH
+
+    style BD fill:#1a1a1a,stroke:#555,color:#fff
+    style ATLAS fill:#5319e7,color:#fff,stroke:#7c4dff
+    style CONST fill:#4a2020,color:#fff,stroke:#e99695
+    style DEMI fill:#0a2a4a,color:#fff,stroke:#0052cc
+    style VN fill:#e99695,color:#000,stroke:#e99695
+    style SHOOT fill:#e99695,color:#000,stroke:#e99695
+    style LIFE fill:#0052cc,color:#fff,stroke:#0052cc
+    style WEALTH fill:#4a7ab5,color:#fff,stroke:#4a7ab5
+    style HEALTH fill:#4a7ab5,color:#fff,stroke:#4a7ab5
+```
 
 <div align="center">
-<table>
-<tr>
-<td align="center" width="280">
-<br>
-<img src="https://img.shields.io/badge/Atlas-Agent_Infrastructure-5319e7?style=for-the-badge" alt="Atlas">
-<br><br>
-<sub>Powering all of Blackdoor</sub>
-<br><br>
-</td>
-<td align="center" width="280">
-<br>
-<img src="https://img.shields.io/badge/Constellation-Game_Studio-e99695?style=for-the-badge&labelColor=4a2020" alt="Constellation">
-<br><br>
-<sub>VN Game &nbsp;·&nbsp; Shootout</sub>
-<br><br>
-</td>
-<td align="center" width="280">
-<br>
-<img src="https://img.shields.io/badge/Demigod-AI_Assistant-0052cc?style=for-the-badge" alt="Demigod">
-<br><br>
-<sub>LifeOS &nbsp;·&nbsp; WealthOS &nbsp;·&nbsp; HealthOS</sub>
-<br><br>
-</td>
-</tr>
-</table>
+
+<sub><strong>Atlas</strong> · Agent Infrastructure &emsp; <strong>Constellation</strong> · Game Studio &emsp; <strong>Demigod</strong> · AI Assistant</sub>
+
 </div>
 
 &nbsp;
 
-**Atlas** — The agent infrastructure that powers everything else at Blackdoor.
-Not a product for sale — the operational backbone. CLAUDE.md conventions, CI
-workflows, standardized protocols, and playbooks that let AI agents build and
-ship across every repo. Atlas matures as the product lines do.
+**Atlas** — The agent infrastructure that powers everything else at Blackdoor. Not a product for sale — the operational backbone. CLAUDE.md conventions, CI workflows, standardized protocols, and playbooks that let AI agents build and ship across every repo. Atlas matures as the product lines do.
 
-**Constellation** — A game studio that pairs two humans with AI agents to
-produce narrative-driven interactive experiences. First title is a visual novel
-built with TypeScript, React 19, and Three.js — working codebase, 3D scrapbook
-UI, functional content pipeline. Not yet deployed.
+**Constellation** — A game studio that pairs two humans with AI agents to produce narrative-driven interactive experiences. First title is a visual novel built with TypeScript, React 19, and Three.js — working codebase, 3D scrapbook UI, functional content pipeline. Not yet deployed.
 
-**Demigod** — An AI personal assistant ecosystem anchored by LifeOS, a hub
-that aggregates life data and surfaces recommendations through conversation.
-WealthOS, HealthOS, and future modules plug in around it. Currently in planning.
-Development begins after Constellation ships.
+**Demigod** — An AI personal assistant ecosystem anchored by LifeOS, a hub that aggregates life data and surfaces recommendations through conversation. WealthOS, HealthOS, and future modules plug in around it. Currently in planning. Development begins after Constellation ships.
 
 Constellation ships first. Demigod follows. Atlas compounds alongside both.
 
 ---
 
+## How We Build
+
+```mermaid
+graph LR
+    D["Define"] --> E["Explore"] --> B["Develop"] --> V["Validate"] --> I["Iterate"]
+    I --> D
+
+    style D fill:#333,color:#fff,stroke:#555
+    style E fill:#5319e7,color:#fff,stroke:#7c4dff
+    style B fill:#0052cc,color:#fff,stroke:#2979ff
+    style V fill:#0e8a16,color:#fff,stroke:#4caf50
+    style I fill:#e99695,color:#000,stroke:#c97a7a
+```
+
+<div align="center">
+
+<sub><strong>Define</strong> problems and opportunities &emsp; <strong>Explore</strong> research and analysis &emsp; <strong>Develop</strong> agents build on branches &emsp; <strong>Validate</strong> CI, review, feedback &emsp; <strong>Iterate</strong> learn and refine</sub>
+
+</div>
+
+&nbsp;
+
+Every repo has a `CLAUDE.md` with agent context. Standardized labels, branch conventions, CI, and PR workflows apply org-wide.
+
+---
+
 ## Team
 
-**Ryder Wolf** — Founder. Comes from enterprise process, performance, and
-quality systems. At Blackdoor, he owns research, strategy, systems architecture,
-and UI/UX — the "what are we building and why" side. He designed the agent-first
-methodology that Atlas codifies.
+**Ryder Wolf** — Founder. Comes from enterprise process, performance, and quality systems. At Blackdoor, he owns research, strategy, systems architecture, and UI/UX. He designed the agent-first methodology that Atlas codifies.
 
-**Pierre** — Co-founder. Owns implementation, experimentation, and deployment —
-the "make it real" side. Responsible for turning architecture into working
-software and iterating on what ships.
+**Pierre** — Co-founder. Owns implementation, experimentation, and deployment. Responsible for turning architecture into working software and iterating on what ships.
 
 ---
 
@@ -162,8 +185,7 @@ software and iterating on what ships.
 
 &nbsp;
 
-Every repository has a `CLAUDE.md` at its root with agent-specific context,
-conventions, and constraints. Start there.
+Every repository has a `CLAUDE.md` at its root with agent-specific context, conventions, and constraints. Start there.
 
 Org-wide standards:
 - **Labels**: `type:`, `priority:`, `status:`, `subsidiary:` taxonomy (18 labels per repo)
@@ -178,5 +200,5 @@ Agent infrastructure is documented in [`atlas-docs`](https://github.com/Blackdoo
 ---
 
 <div align="center">
-<sub>Blackdoor is pre-revenue, self-funded, and early. We are proving the model by building with it.</sub>
+<sub>Pre-revenue · Self-funded · Proving the model by building with it</sub>
 </div>
