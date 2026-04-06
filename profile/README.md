@@ -1,35 +1,27 @@
 # Blackdoor Industries
 
-We build products at the intersection of AI, gaming, and personal technology — powered by a small human team and a growing fleet of AI agents.
+Two founders and a fleet of AI agents building and operating multiple businesses autonomously.
+
+## The Thesis
+
+AI agents can do the work that used to require large teams. We're proving it by running real businesses — not building a platform in a vacuum. Every business we build makes our agent infrastructure smarter, and every improvement makes the next business easier to build.
 
 ## Subsidiaries
 
-**Atlas** — Our agentic infrastructure layer. Atlas is the toolchain, conventions, and operational playbooks that enable AI agents to build and operate everything across Blackdoor. It's the backbone.
+**[Atlas](https://github.com/Blackdoor-Industries/atlas-docs)** — Agent infrastructure. The toolchain, conventions, and playbooks that power everything. Not a product yet — it's the backbone.
 
-**Constellation** — A game studio focused on narrative-driven experiences. Our first title is a web-based visual novel built with React, Three.js, and a custom content pipeline.
+**[Constellation](https://github.com/Blackdoor-Industries/constellation-docs)** — Game studio. First title: a web-based adult visual novel (TypeScript, React, Three.js). Targeting an underserved market at high quality with AI-powered content production.
 
-**Demigod** — An AI-powered personal assistant ecosystem. LifeOS is the hub — a modular platform designed to help people manage their lives through intelligent automation.
+**[Demigod](https://github.com/Blackdoor-Industries/demigod-docs)** — AI personal assistant. LifeOS aggregates life data and provides recommendations through a conversational interface. In planning.
 
-## How This Org Is Organized
+## How This Org Works
 
-Repositories follow the naming convention `{subsidiary}-{product}-{type}`:
+[`blackdoor-docs`](https://github.com/Blackdoor-Industries/blackdoor-docs) is the command center — strategy, research, and operations that drive all work.
 
-| Repository | Description |
-|------------|-------------|
-| [`blackdoor-docs`](https://github.com/Blackdoor-Industries/blackdoor-docs) | Corporate strategy, governance, and financial documentation |
-| [`atlas-docs`](https://github.com/Blackdoor-Industries/atlas-docs) | Agent infrastructure: architecture, playbooks, integrations |
-| [`constellation-docs`](https://github.com/Blackdoor-Industries/constellation-docs) | Studio-level business documentation for Constellation |
-| [`constellation-vngame-app`](https://github.com/Blackdoor-Industries/constellation-vngame-app) | Visual novel game — application code |
-| [`constellation-vngame-docs`](https://github.com/Blackdoor-Industries/constellation-vngame-docs) | Visual novel game — product documentation and specs |
-| [`constellation-vngame-site`](https://github.com/Blackdoor-Industries/constellation-vngame-site) | Visual novel game — marketing website |
-| [`constellation-shootout-docs`](https://github.com/Blackdoor-Industries/constellation-shootout-docs) | Shootout game — pre-production documentation |
-| [`demigod-docs`](https://github.com/Blackdoor-Industries/demigod-docs) | Ecosystem-level business documentation for Demigod |
-| [`demigod-lifeos-app`](https://github.com/Blackdoor-Industries/demigod-lifeos-app) | LifeOS — application code |
-| [`demigod-lifeos-docs`](https://github.com/Blackdoor-Industries/demigod-lifeos-docs) | LifeOS — product documentation and specs |
-| [`demigod-lifeos-site`](https://github.com/Blackdoor-Industries/demigod-lifeos-site) | LifeOS — marketing website |
+Repos follow `{subsidiary}-{product}-{type}` naming. All changes go through PRs. CI runs on every push. Issues drive work, PRs deliver it.
 
 ## For Agents
 
-Every repository contains a `CLAUDE.md` file with context for AI agents: repo purpose, conventions, structure, and guardrails. Start there.
+Every repo has a `CLAUDE.md` with context: purpose, conventions, structure, guardrails. Start there.
 
-All repos use standardized labels (`type:`, `priority:`, `status:`, `subsidiary:`) and follow the same branch and PR conventions documented in [`atlas-docs/playbooks`](https://github.com/Blackdoor-Industries/atlas-docs/tree/main/playbooks).
+Standardized labels (`type:`, `priority:`, `status:`, `subsidiary:`), branch conventions (`type/short-description`), and commit format (`type: description`) apply across all repos. See [`atlas-docs/playbooks`](https://github.com/Blackdoor-Industries/atlas-docs/tree/main/playbooks) for details.
