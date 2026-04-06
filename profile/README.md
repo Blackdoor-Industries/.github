@@ -1,46 +1,57 @@
-<div align="center">
-
-# Blackdoor Industries
-
-&nbsp;
-
-### We provide the AI workforce that runs your autonomous business.
-
-</div>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Blackdoor-Industries/.github/main/profile/assets/banner-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Blackdoor-Industries/.github/main/profile/assets/banner-light.svg">
+  <img src="https://raw.githubusercontent.com/Blackdoor-Industries/.github/main/profile/assets/banner-dark.svg" alt="Blackdoor Industries" width="100%">
+</picture>
 
 &nbsp;
+
+<table>
+<tr>
+<td width="62%" valign="top">
 
 *We empower solo founders, small businesses, and enterprises to achieve more than humanly possible.*
-
-&nbsp;
 
 We provide the **executive AI teams** — CEOs, CTOs, CMOs — cascading down to project managers, researchers, and specialized field agents, that work together to eliminate the manual overhead of starting or running your business.
 
 Our agents execute on *your* specific vision, values, standards, and goals with minimal human friction, allowing you to turn brand new ventures into **fully automated businesses** or migrate existing manual operations to our autonomous platform.
 
-&nbsp;
+</td>
+<td width="38%" valign="top" align="center">
 
-<div align="center">
+<br>
 
----
+<img src="https://img.shields.io/badge/Atlas-Agent_Infrastructure-5319e7?style=for-the-badge" alt="Atlas">
 
-#### *We are not just creating technology.*
+<img src="https://img.shields.io/badge/Constellation-Game_Studio-e99695?style=for-the-badge&labelColor=4a2020" alt="Constellation">
 
-### **We are changing how the world works.**
+<img src="https://img.shields.io/badge/Demigod-AI_Assistant-0052cc?style=for-the-badge" alt="Demigod">
 
----
-
-&nbsp;
+<br>
 
 <sub>
 
 <img src="https://img.shields.io/badge/Pre--revenue-555?style=flat-square" alt="Pre-revenue">
 &nbsp;
 <img src="https://img.shields.io/badge/Self--funded-555?style=flat-square" alt="Self-funded">
-&nbsp;
+
 <img src="https://img.shields.io/badge/2_founders_+_AI_agents-555?style=flat-square" alt="Team">
 
 </sub>
+
+</td>
+</tr>
+</table>
+
+<div align="center">
+
+&nbsp;
+
+#### *We are not just creating technology.*
+
+### **We are changing how the world works.**
+
+&nbsp;
 
 </div>
 
