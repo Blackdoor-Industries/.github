@@ -1,129 +1,183 @@
+<div align="center">
+
 # Blackdoor Industries
 
 **We provide the AI workforce that runs your autonomous business.**
 
-We empower solo founders, small businesses, and enterprises to achieve more than humanly possible. Our agents execute on your specific vision, values, standards, and goals — turning new ventures into fully automated businesses or migrating existing operations to our autonomous platform.
+We empower solo founders, small businesses, and enterprises to achieve more
+than humanly possible. Our agents execute on your specific vision, values,
+standards, and goals — turning new ventures into fully automated businesses
+or migrating existing operations to our autonomous platform.
 
 We are not just creating technology. We are changing how the world works.
 
 ---
 
+<sub>Pre-revenue · Self-funded · Two humans and a fleet of AI agents</sub>
+
+</div>
+
+## Organization
+
 ```mermaid
-flowchart TB
-    subgraph BLACKDOOR [" "]
-        direction TB
-        CMD["blackdoor-docs\nCommand Center"]
-    end
+graph TD
+    BD["Blackdoor Industries<br><sub>command center</sub>"]
+    ATLAS["Atlas<br><sub>agent infrastructure</sub>"]
+    CONST["Constellation<br><sub>game studio</sub>"]
+    DEMI["Demigod<br><sub>AI personal assistant</sub>"]
 
-    subgraph ATLAS ["Atlas — Agent Infrastructure"]
-        direction LR
-        A1["Playbooks"]
-        A2["Conventions"]
-        A3["Integrations"]
-    end
+    VN["VN Game"]
+    SHOOT["Shootout"]
+    LIFE["LifeOS<br><sub>flagship hub</sub>"]
+    WEALTH["WealthOS"]
+    HEALTH["HealthOS"]
+    FUTURE["...future modules"]
 
-    subgraph CONSTELLATION ["Constellation — Game Studio"]
-        direction LR
-        C1["VN Game\n(app · docs · site)"]
-        C2["Shootout\n(docs)"]
-    end
+    BD --> ATLAS
+    ATLAS --> CONST
+    ATLAS --> DEMI
+    CONST --> VN
+    CONST --> SHOOT
+    DEMI --> LIFE
+    LIFE --> WEALTH
+    LIFE --> HEALTH
+    LIFE -.-> FUTURE
 
-    subgraph DEMIGOD ["Demigod — AI Personal Assistant"]
-        direction LR
-        D1["LifeOS\n(app · docs · site)"]
-        D2["WealthOS"]
-        D3["HealthOS"]
-    end
-
-    CMD -- "strategy\nresearch\ndecisions" --> ATLAS
-    ATLAS -- "powers" --> CONSTELLATION
-    ATLAS -- "powers" --> DEMIGOD
-
-    style BLACKDOOR fill:#1a1a1a,stroke:#555,color:#fff
-    style CMD fill:#333,color:#fff,stroke:#888
-    style ATLAS fill:#2d1b69,stroke:#5319e7,color:#fff
-    style A1 fill:#5319e7,color:#fff,stroke:none
-    style A2 fill:#5319e7,color:#fff,stroke:none
-    style A3 fill:#5319e7,color:#fff,stroke:none
-    style CONSTELLATION fill:#4a2020,stroke:#e99695,color:#fff
-    style C1 fill:#e99695,color:#000,stroke:none
-    style C2 fill:#e99695,color:#000,stroke:none
-    style DEMIGOD fill:#0a2a4a,stroke:#0052cc,color:#fff
-    style D1 fill:#0052cc,color:#fff,stroke:none
-    style D2 fill:#0052cc,color:#fff,stroke:none
-    style D3 fill:#0052cc,color:#fff,stroke:none
+    style BD fill:#1a1a1a,stroke:#555,color:#fff
+    style ATLAS fill:#5319e7,color:#fff,stroke:#7c4dff
+    style CONST fill:#4a2020,color:#fff,stroke:#e99695
+    style DEMI fill:#0a2a4a,color:#fff,stroke:#0052cc
+    style VN fill:#e99695,color:#000,stroke:none
+    style SHOOT fill:#e99695,color:#000,stroke:none
+    style LIFE fill:#0052cc,color:#fff,stroke:none
+    style WEALTH fill:#4a7ab5,color:#fff,stroke:none
+    style HEALTH fill:#4a7ab5,color:#fff,stroke:none
+    style FUTURE fill:#333,color:#999,stroke-dasharray:5 5
 ```
 
----
+## Subsidiaries
+
+**Atlas** — Agent infrastructure powering all of Blackdoor.
+Not a product — the backbone. Encompasses the toolchain, conventions, agent protocols, and operational playbooks that enable AI agents to build and operate everything across Blackdoor. Currently operational as documented conventions and configurations: CLAUDE.md files, CI workflows, standardized labels, reusable workflows.
+
+**Constellation** — Game studio producing narrative-driven interactive experiences.
+Targets underserved markets at high quality and scale using AI-generated content. A two-person team with AI agents competing with studios that have dedicated creative teams. The VN Game (TypeScript, React 19, Three.js) has a working codebase with a 3D scrapbook UI and content pipeline. No deployment yet.
+
+**Demigod** — AI-powered personal assistant ecosystem.
+LifeOS is the flagship hub — a single app that aggregates your life data and provides AI-powered recommendations through a conversational interface. WealthOS, HealthOS, and future modules are standalone apps that plug into LifeOS as an ecosystem. Currently in planning phase. Development starts after Constellation ships its first title.
+
+*Gaming, personal AI, and agent infrastructure — three industries, one methodology. Constellation ships first. Demigod follows. Atlas matures alongside both.*
 
 ## Repositories
 
-### Blackdoor Industries (Parent)
+<table>
+<thead>
+<tr>
+<th>Subsidiary</th>
+<th>Repository</th>
+<th>Purpose</th>
+<th>Status</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Blackdoor</td>
+<td><a href="https://github.com/Blackdoor-Industries/blackdoor-docs"><code>blackdoor-docs</code></a></td>
+<td>Strategy, research, operations — the command center</td>
+<td><img src="https://img.shields.io/badge/Operational-0e8a16?style=flat-square" alt="Operational"></td>
+</tr>
+<tr>
+<td>Atlas</td>
+<td><a href="https://github.com/Blackdoor-Industries/atlas-docs"><code>atlas-docs</code></a></td>
+<td>Architecture, playbooks, integration catalog</td>
+<td><img src="https://img.shields.io/badge/Operational-0e8a16?style=flat-square" alt="Operational"></td>
+</tr>
+<tr>
+<td>Constellation</td>
+<td><a href="https://github.com/Blackdoor-Industries/constellation-docs"><code>constellation-docs</code></a></td>
+<td>Studio strategy and business planning</td>
+<td><img src="https://img.shields.io/badge/Researching-5319e7?style=flat-square" alt="Researching"></td>
+</tr>
+<tr>
+<td>Constellation</td>
+<td><a href="https://github.com/Blackdoor-Industries/constellation-vngame-app"><code>constellation-vngame-app</code></a></td>
+<td>Visual novel — TypeScript, React, Three.js</td>
+<td><img src="https://img.shields.io/badge/Developing-0052cc?style=flat-square" alt="Developing"></td>
+</tr>
+<tr>
+<td>Constellation</td>
+<td><a href="https://github.com/Blackdoor-Industries/constellation-vngame-docs"><code>constellation-vngame-docs</code></a></td>
+<td>VN game specs, design docs, operations</td>
+<td><img src="https://img.shields.io/badge/Developing-0052cc?style=flat-square" alt="Developing"></td>
+</tr>
+<tr>
+<td>Constellation</td>
+<td><a href="https://github.com/Blackdoor-Industries/constellation-vngame-site"><code>constellation-vngame-site</code></a></td>
+<td>VN game marketing website</td>
+<td><img src="https://img.shields.io/badge/Scaffolded-555?style=flat-square" alt="Scaffolded"></td>
+</tr>
+<tr>
+<td>Constellation</td>
+<td><a href="https://github.com/Blackdoor-Industries/constellation-shootout-docs"><code>constellation-shootout-docs</code></a></td>
+<td>Shootout — pre-production concepts</td>
+<td><img src="https://img.shields.io/badge/Scaffolded-555?style=flat-square" alt="Scaffolded"></td>
+</tr>
+<tr>
+<td>Demigod</td>
+<td><a href="https://github.com/Blackdoor-Industries/demigod-docs"><code>demigod-docs</code></a></td>
+<td>Ecosystem strategy and business planning</td>
+<td><img src="https://img.shields.io/badge/Researching-5319e7?style=flat-square" alt="Researching"></td>
+</tr>
+<tr>
+<td>Demigod</td>
+<td><a href="https://github.com/Blackdoor-Industries/demigod-lifeos-app"><code>demigod-lifeos-app</code></a></td>
+<td>LifeOS application code</td>
+<td><img src="https://img.shields.io/badge/Scaffolded-555?style=flat-square" alt="Scaffolded"></td>
+</tr>
+<tr>
+<td>Demigod</td>
+<td><a href="https://github.com/Blackdoor-Industries/demigod-lifeos-docs"><code>demigod-lifeos-docs</code></a></td>
+<td>LifeOS product specs and design</td>
+<td><img src="https://img.shields.io/badge/Researching-5319e7?style=flat-square" alt="Researching"></td>
+</tr>
+<tr>
+<td>Demigod</td>
+<td><a href="https://github.com/Blackdoor-Industries/demigod-lifeos-site"><code>demigod-lifeos-site</code></a></td>
+<td>LifeOS marketing website</td>
+<td><img src="https://img.shields.io/badge/Scaffolded-555?style=flat-square" alt="Scaffolded"></td>
+</tr>
+</tbody>
+</table>
 
-| Repository | Purpose | Status |
-|:-----------|:--------|:------:|
-| [`blackdoor-docs`](https://github.com/Blackdoor-Industries/blackdoor-docs) | Strategy, research, operations — the command center | :green_circle: Active |
+> ![Operational](https://img.shields.io/badge/Operational-0e8a16?style=flat-square) Actively maintained, serving its purpose&emsp;
+> ![Developing](https://img.shields.io/badge/Developing-0052cc?style=flat-square) Active code or content work&emsp;
+> ![Researching](https://img.shields.io/badge/Researching-5319e7?style=flat-square) Planning and analysis phase&emsp;
+> ![Scaffolded](https://img.shields.io/badge/Scaffolded-555?style=flat-square) Structure exists, awaiting active work
 
-### Atlas — Agent Infrastructure
-
-| Repository | Purpose | Status |
-|:-----------|:--------|:------:|
-| [`atlas-docs`](https://github.com/Blackdoor-Industries/atlas-docs) | Architecture, playbooks, integration catalog | :green_circle: Active |
-
-### Constellation — Game Studio
-
-| Repository | Purpose | Status |
-|:-----------|:--------|:------:|
-| [`constellation-docs`](https://github.com/Blackdoor-Industries/constellation-docs) | Studio strategy and business planning | :green_circle: Active |
-| [`constellation-vngame-app`](https://github.com/Blackdoor-Industries/constellation-vngame-app) | Visual novel game — TypeScript, React, Three.js | :green_circle: Active |
-| [`constellation-vngame-docs`](https://github.com/Blackdoor-Industries/constellation-vngame-docs) | VN game specs, design docs, operations | :green_circle: Active |
-| [`constellation-vngame-site`](https://github.com/Blackdoor-Industries/constellation-vngame-site) | VN game marketing website | :yellow_circle: Planned |
-| [`constellation-shootout-docs`](https://github.com/Blackdoor-Industries/constellation-shootout-docs) | Shootout — pre-production concepts | :yellow_circle: Planned |
-
-### Demigod — AI Personal Assistant
-
-| Repository | Purpose | Status |
-|:-----------|:--------|:------:|
-| [`demigod-docs`](https://github.com/Blackdoor-Industries/demigod-docs) | Ecosystem strategy and business planning | :green_circle: Active |
-| [`demigod-lifeos-app`](https://github.com/Blackdoor-Industries/demigod-lifeos-app) | LifeOS — application code | :yellow_circle: Planned |
-| [`demigod-lifeos-docs`](https://github.com/Blackdoor-Industries/demigod-lifeos-docs) | LifeOS — product specs and design | :green_circle: Active |
-| [`demigod-lifeos-site`](https://github.com/Blackdoor-Industries/demigod-lifeos-site) | LifeOS — marketing website | :yellow_circle: Planned |
-
-> :green_circle: **Active** — under development&emsp;&emsp;:yellow_circle: **Planned** — scaffolded, awaiting active work
-
----
-
-## How It Works
+## How We Build
 
 ```mermaid
-flowchart LR
-    subgraph RESEARCH ["1 · Research"]
-        R["Market analysis\nFeasibility studies\nCompetitive landscape"]
-    end
+graph LR
+    DEFINE["Define<br><sub>problems &<br>opportunities</sub>"]
+    EXPLORE["Explore<br><sub>research &<br>analysis</sub>"]
+    DEVELOP["Develop<br><sub>agents build<br>on branches</sub>"]
+    VALIDATE["Validate<br><sub>CI, review,<br>feedback</sub>"]
+    ITERATE["Iterate<br><sub>learn &<br>refine</sub>"]
 
-    subgraph DECIDE ["2 · Decide"]
-        D["Strategy defined\nin blackdoor-docs"]
-    end
+    DEFINE --> EXPLORE --> DEVELOP --> VALIDATE --> ITERATE
+    ITERATE --> DEFINE
 
-    subgraph BUILD ["3 · Build"]
-        B["Agents create branches\nwrite code, open PRs"]
-    end
-
-    subgraph SHIP ["4 · Ship"]
-        S["CI passes\nhuman reviews\nmerge to main"]
-    end
-
-    RESEARCH --> DECIDE --> BUILD --> SHIP
-    SHIP -. "lessons learned" .-> RESEARCH
-
-    style RESEARCH fill:#333,color:#fff,stroke:#555
-    style DECIDE fill:#5319e7,color:#fff,stroke:#7c4dff
-    style BUILD fill:#0052cc,color:#fff,stroke:#2979ff
-    style SHIP fill:#0e8a16,color:#fff,stroke:#4caf50
-    style R fill:none,color:#fff,stroke:none
-    style D fill:none,color:#fff,stroke:none
-    style B fill:none,color:#fff,stroke:none
-    style S fill:none,color:#fff,stroke:none
+    style DEFINE fill:#333,color:#fff,stroke:#555
+    style EXPLORE fill:#5319e7,color:#fff,stroke:#7c4dff
+    style DEVELOP fill:#0052cc,color:#fff,stroke:#2979ff
+    style VALIDATE fill:#0e8a16,color:#fff,stroke:#4caf50
+    style ITERATE fill:#e99695,color:#000,stroke:#c97a7a
 ```
 
-Every repo has a `CLAUDE.md` with agent context. Standardized labels, branch conventions, CI, and PR workflows apply org-wide. Details in [`atlas-docs/playbooks`](https://github.com/Blackdoor-Industries/atlas-docs/tree/main/playbooks).
+Every repo has a `CLAUDE.md` with agent context. Standardized labels, branch conventions, CI, and PR workflows apply org-wide.
+
+## Team
+
+**Ryder Wolf** — Founder. Process, performance, and quality systems. Research, strategy, systems architecture, UI/UX design.
+
+**Pierre** — Co-founder. Implementation, experimentation, deployment, iteration.
