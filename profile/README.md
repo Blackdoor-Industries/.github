@@ -2,17 +2,27 @@
 
 # Blackdoor Industries
 
-**We provide the AI workforce that runs your autonomous business.**
+### We provide the AI workforce that runs your autonomous business.
 
-We empower solo founders, small businesses, and enterprises to achieve more than humanly possible.
+&nbsp;
 
-We provide the executive AI teams (CEOs, CTOs, CMOs) cascading down to project managers, researchers, and specialized field agents, that work together to eliminate the manual overhead of starting or running your business.
+We empower solo founders, small businesses, and enterprises
+<br>to achieve more than humanly possible.
 
-Our agents execute on your specific vision, values, standards, and goals with minimal human friction, allowing you to turn brand new ventures into fully automated businesses or migrate existing manual operations to our autonomous platform.
+&nbsp;
 
-We are not just creating technology; we are changing how the world works.
+We provide the executive AI teams — CEOs, CTOs, CMOs — cascading down to project managers,
+<br>researchers, and specialized field agents, that work together to eliminate
+<br>the manual overhead of starting or running your business.
 
----
+&nbsp;
+
+Our agents execute on your specific vision, values, standards, and goals
+<br>with minimal human friction, allowing you to turn brand new ventures into
+<br>fully automated businesses or migrate existing manual operations
+<br>to our autonomous platform.
+
+&nbsp;
 
 <img src="https://img.shields.io/badge/Pre--revenue-555?style=flat-square" alt="Pre-revenue">
 &nbsp;
@@ -20,7 +30,11 @@ We are not just creating technology; we are changing how the world works.
 &nbsp;
 <img src="https://img.shields.io/badge/2_founders_+_AI_agents-555?style=flat-square" alt="Team">
 
+&nbsp;
+
 </div>
+
+> **We are not just creating technology; we are changing how the world works.**
 
 ---
 
