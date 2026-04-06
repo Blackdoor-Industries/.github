@@ -1,47 +1,33 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 300" fill="none">
-  <defs>
-    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#5319e7"/>
-      <stop offset="50%" stop-color="#0052cc"/>
-      <stop offset="100%" stop-color="#e99695"/>
-    </linearGradient>
-  </defs>
-
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 340" fill="none">
   <!-- Background -->
-  <rect width="1200" height="300" fill="#0d1117"/>
+  <rect width="1200" height="340" fill="#000000"/>
 
-  <!-- Subtle grid lines for texture -->
-  <line x1="0" y1="100" x2="1200" y2="100" stroke="#161b22" stroke-width="1"/>
-  <line x1="0" y1="200" x2="1200" y2="200" stroke="#161b22" stroke-width="1"/>
-  <line x1="400" y1="0" x2="400" y2="300" stroke="#161b22" stroke-width="1"/>
-  <line x1="800" y1="0" x2="800" y2="300" stroke="#161b22" stroke-width="1"/>
+  <!-- Door frame -->
+  <g transform="translate(520, 30)">
+    <!-- Outer frame -->
+    <rect x="0" y="0" width="160" height="220" rx="2" fill="none" stroke="#333" stroke-width="3"/>
 
-  <!-- Door motif — ajar door with light spill -->
-  <g transform="translate(80, 55)">
-    <!-- Door frame -->
-    <rect x="0" y="0" width="90" height="160" rx="3" fill="none" stroke="#30363d" stroke-width="2"/>
-    <!-- Door panel (slightly ajar — narrower, showing depth) -->
-    <rect x="4" y="4" width="68" height="152" rx="2" fill="#161b22"/>
-    <!-- Light spill from the gap -->
-    <rect x="72" y="4" width="14" height="152" rx="1" fill="#1c2028"/>
-    <rect x="74" y="6" width="8" height="148" fill="#21262d"/>
+    <!-- Door panel — slightly ajar (perspective shift) -->
+    <polygon points="6,6 120,14 120,208 6,214" fill="#111"/>
+
+    <!-- Door inner panel detail -->
+    <rect x="16" y="30" width="90" height="70" rx="1" fill="none" stroke="#222" stroke-width="1.5"/>
+    <rect x="16" y="120" width="90" height="70" rx="1" fill="none" stroke="#222" stroke-width="1.5"/>
+
+    <!-- Gap (light coming through the ajar door) -->
+    <polygon points="120,14 152,6 152,214 120,208" fill="#1a1a1a"/>
+
     <!-- Doorknob -->
-    <circle cx="62" cy="82" r="5" fill="#30363d"/>
-    <circle cx="62" cy="82" r="2.5" fill="#484f58"/>
+    <circle cx="108" cy="115" r="7" fill="#333"/>
+    <circle cx="108" cy="115" r="3.5" fill="#fff"/>
   </g>
 
-  <!-- Gradient accent line -->
-  <rect x="210" y="148" width="420" height="3" rx="1.5" fill="url(#accent)"/>
+  <!-- BLACKDOOR text -->
+  <text x="600" y="296" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="32" font-weight="600" fill="#ffffff" letter-spacing="14">BLACKDOOR</text>
 
-  <!-- Company name -->
-  <text x="210" y="130" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="56" font-weight="700" fill="#f0f6fc" letter-spacing="3">BLACKDOOR</text>
+  <!-- Thin rule -->
+  <line x1="460" y1="312" x2="740" y2="312" stroke="#333" stroke-width="1"/>
 
-  <!-- Industries -->
-  <text x="214" y="178" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="18" font-weight="400" fill="#484f58" letter-spacing="12">INDUSTRIES</text>
-
-  <!-- Tagline -->
-  <text x="210" y="230" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="16" font-weight="400" fill="#8b949e">AI workforce for autonomous businesses</text>
-
-  <!-- Bottom accent line -->
-  <rect x="0" y="296" width="1200" height="4" fill="url(#accent)"/>
+  <!-- INDUSTRIES subtitle -->
+  <text x="600" y="332" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="11" font-weight="400" fill="#555" letter-spacing="10">INDUSTRIES</text>
 </svg>

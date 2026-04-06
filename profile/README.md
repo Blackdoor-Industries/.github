@@ -1,57 +1,40 @@
+<div align="center">
+
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Blackdoor-Industries/.github/main/profile/assets/banner-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Blackdoor-Industries/.github/main/profile/assets/banner-light.svg">
   <img src="https://raw.githubusercontent.com/Blackdoor-Industries/.github/main/profile/assets/banner-dark.svg" alt="Blackdoor Industries" width="100%">
 </picture>
 
+</div>
+
 &nbsp;
 
-<table>
-<tr>
-<td width="62%" valign="top">
+### We provide the AI workforce that runs your autonomous business.
+
+&nbsp;
 
 *We empower solo founders, small businesses, and enterprises to achieve more than humanly possible.*
+
+&nbsp;
 
 We provide the **executive AI teams** — CEOs, CTOs, CMOs — cascading down to project managers, researchers, and specialized field agents, that work together to eliminate the manual overhead of starting or running your business.
 
 Our agents execute on *your* specific vision, values, standards, and goals with minimal human friction, allowing you to turn brand new ventures into **fully automated businesses** or migrate existing manual operations to our autonomous platform.
 
-</td>
-<td width="38%" valign="top" align="center">
-
-<br>
-
-<img src="https://img.shields.io/badge/Atlas-Agent_Infrastructure-5319e7?style=for-the-badge" alt="Atlas">
-
-<img src="https://img.shields.io/badge/Constellation-Game_Studio-e99695?style=for-the-badge&labelColor=4a2020" alt="Constellation">
-
-<img src="https://img.shields.io/badge/Demigod-AI_Assistant-0052cc?style=for-the-badge" alt="Demigod">
-
-<br>
-
-<sub>
-
-<img src="https://img.shields.io/badge/Pre--revenue-555?style=flat-square" alt="Pre-revenue">
 &nbsp;
-<img src="https://img.shields.io/badge/Self--funded-555?style=flat-square" alt="Self-funded">
 
-<img src="https://img.shields.io/badge/2_founders_+_AI_agents-555?style=flat-square" alt="Team">
+> ### *We are not just creating technology; we are changing how the world works.*
 
-</sub>
-
-</td>
-</tr>
-</table>
+&nbsp;
 
 <div align="center">
 
+<img src="https://img.shields.io/badge/Pre--revenue-1a1a1a?style=flat-square&labelColor=1a1a1a" alt="Pre-revenue">
 &nbsp;
-
-#### *We are not just creating technology.*
-
-### **We are changing how the world works.**
-
+<img src="https://img.shields.io/badge/Self--funded-1a1a1a?style=flat-square&labelColor=1a1a1a" alt="Self-funded">
 &nbsp;
+<img src="https://img.shields.io/badge/2_founders_+_AI_agents-1a1a1a?style=flat-square&labelColor=1a1a1a" alt="Team">
 
 </div>
 
@@ -81,14 +64,14 @@ graph TD
     LIFE --> HEALTH
 
     style BD fill:#1a1a1a,stroke:#555,color:#fff
-    style ATLAS fill:#5319e7,color:#fff,stroke:#7c4dff
-    style CONST fill:#4a2020,color:#fff,stroke:#e99695
-    style DEMI fill:#0a2a4a,color:#fff,stroke:#0052cc
-    style VN fill:#e99695,color:#000,stroke:#e99695
-    style SHOOT fill:#e99695,color:#000,stroke:#e99695
-    style LIFE fill:#0052cc,color:#fff,stroke:#0052cc
-    style WEALTH fill:#4a7ab5,color:#fff,stroke:#4a7ab5
-    style HEALTH fill:#4a7ab5,color:#fff,stroke:#4a7ab5
+    style ATLAS fill:#1a1a1a,color:#fff,stroke:#444
+    style CONST fill:#1a1a1a,color:#fff,stroke:#444
+    style DEMI fill:#1a1a1a,color:#fff,stroke:#444
+    style VN fill:#333,color:#fff,stroke:#555
+    style SHOOT fill:#333,color:#fff,stroke:#555
+    style LIFE fill:#333,color:#fff,stroke:#555
+    style WEALTH fill:#333,color:#fff,stroke:#555
+    style HEALTH fill:#333,color:#fff,stroke:#555
 ```
 
 <div align="center">
@@ -116,11 +99,11 @@ graph LR
     D["Define"] --> E["Explore"] --> B["Develop"] --> V["Validate"] --> I["Iterate"]
     I --> D
 
-    style D fill:#333,color:#fff,stroke:#555
-    style E fill:#5319e7,color:#fff,stroke:#7c4dff
-    style B fill:#0052cc,color:#fff,stroke:#2979ff
-    style V fill:#0e8a16,color:#fff,stroke:#4caf50
-    style I fill:#e99695,color:#000,stroke:#c97a7a
+    style D fill:#000,color:#fff,stroke:#333
+    style E fill:#1a1a1a,color:#fff,stroke:#444
+    style B fill:#333,color:#fff,stroke:#555
+    style V fill:#555,color:#fff,stroke:#777
+    style I fill:#777,color:#fff,stroke:#999
 ```
 
 <div align="center">
@@ -174,11 +157,11 @@ Every repo has a `CLAUDE.md` with agent context. Standardized labels, branch con
 
 | Repository | Purpose | Status |
 |---|---|---|
-| [`constellation-docs`](https://github.com/Blackdoor-Industries/constellation-docs) | Studio strategy and business planning | ![Researching](https://img.shields.io/badge/Researching-5319e7?style=flat-square) |
-| [`constellation-vngame-app`](https://github.com/Blackdoor-Industries/constellation-vngame-app) | Visual novel — TypeScript, React, Three.js | ![Developing](https://img.shields.io/badge/Developing-0052cc?style=flat-square) |
-| [`constellation-vngame-docs`](https://github.com/Blackdoor-Industries/constellation-vngame-docs) | Game specs, design docs, operations | ![Developing](https://img.shields.io/badge/Developing-0052cc?style=flat-square) |
-| [`constellation-vngame-site`](https://github.com/Blackdoor-Industries/constellation-vngame-site) | Marketing website | ![Scaffolded](https://img.shields.io/badge/Scaffolded-555?style=flat-square) |
-| [`constellation-shootout-docs`](https://github.com/Blackdoor-Industries/constellation-shootout-docs) | Pre-production concepts | ![Scaffolded](https://img.shields.io/badge/Scaffolded-555?style=flat-square) |
+| [`constellation-docs`](https://github.com/Blackdoor-Industries/constellation-docs) | Studio strategy and business planning | ![Researching](https://img.shields.io/badge/Researching-555?style=flat-square) |
+| [`constellation-vngame-app`](https://github.com/Blackdoor-Industries/constellation-vngame-app) | Visual novel — TypeScript, React, Three.js | ![Developing](https://img.shields.io/badge/Developing-333?style=flat-square) |
+| [`constellation-vngame-docs`](https://github.com/Blackdoor-Industries/constellation-vngame-docs) | Game specs, design docs, operations | ![Developing](https://img.shields.io/badge/Developing-333?style=flat-square) |
+| [`constellation-vngame-site`](https://github.com/Blackdoor-Industries/constellation-vngame-site) | Marketing website | ![Scaffolded](https://img.shields.io/badge/Scaffolded-888?style=flat-square) |
+| [`constellation-shootout-docs`](https://github.com/Blackdoor-Industries/constellation-shootout-docs) | Pre-production concepts | ![Scaffolded](https://img.shields.io/badge/Scaffolded-888?style=flat-square) |
 
 </details>
 
@@ -189,10 +172,10 @@ Every repo has a `CLAUDE.md` with agent context. Standardized labels, branch con
 
 | Repository | Purpose | Status |
 |---|---|---|
-| [`demigod-docs`](https://github.com/Blackdoor-Industries/demigod-docs) | Ecosystem strategy and business planning | ![Researching](https://img.shields.io/badge/Researching-5319e7?style=flat-square) |
-| [`demigod-lifeos-app`](https://github.com/Blackdoor-Industries/demigod-lifeos-app) | LifeOS application code | ![Scaffolded](https://img.shields.io/badge/Scaffolded-555?style=flat-square) |
-| [`demigod-lifeos-docs`](https://github.com/Blackdoor-Industries/demigod-lifeos-docs) | LifeOS product specs and design | ![Researching](https://img.shields.io/badge/Researching-5319e7?style=flat-square) |
-| [`demigod-lifeos-site`](https://github.com/Blackdoor-Industries/demigod-lifeos-site) | Marketing website | ![Scaffolded](https://img.shields.io/badge/Scaffolded-555?style=flat-square) |
+| [`demigod-docs`](https://github.com/Blackdoor-Industries/demigod-docs) | Ecosystem strategy and business planning | ![Researching](https://img.shields.io/badge/Researching-555?style=flat-square) |
+| [`demigod-lifeos-app`](https://github.com/Blackdoor-Industries/demigod-lifeos-app) | LifeOS application code | ![Scaffolded](https://img.shields.io/badge/Scaffolded-888?style=flat-square) |
+| [`demigod-lifeos-docs`](https://github.com/Blackdoor-Industries/demigod-lifeos-docs) | LifeOS product specs and design | ![Researching](https://img.shields.io/badge/Researching-555?style=flat-square) |
+| [`demigod-lifeos-site`](https://github.com/Blackdoor-Industries/demigod-lifeos-site) | Marketing website | ![Scaffolded](https://img.shields.io/badge/Scaffolded-888?style=flat-square) |
 
 </details>
 
@@ -203,11 +186,11 @@ Every repo has a `CLAUDE.md` with agent context. Standardized labels, branch con
 
 ![Operational](https://img.shields.io/badge/Operational-0e8a16?style=flat-square) Actively maintained, serving its purpose
 &emsp;
-![Developing](https://img.shields.io/badge/Developing-0052cc?style=flat-square) Active code or content work
+![Developing](https://img.shields.io/badge/Developing-333?style=flat-square) Active code or content work
 &emsp;
-![Researching](https://img.shields.io/badge/Researching-5319e7?style=flat-square) Planning and analysis phase
+![Researching](https://img.shields.io/badge/Researching-555?style=flat-square) Planning and analysis phase
 &emsp;
-![Scaffolded](https://img.shields.io/badge/Scaffolded-555?style=flat-square) Structure exists, awaiting active work
+![Scaffolded](https://img.shields.io/badge/Scaffolded-888?style=flat-square) Structure exists, awaiting active work
 
 </details>
 
