@@ -1,0 +1,32 @@
+name: Chore / Task
+description: Maintenance, cleanup, or operational work
+labels: ["type: chore"]
+body:
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: What needs to be done and why?
+    validations:
+      required: true
+  - type: dropdown
+    id: priority
+    attributes:
+      label: Priority
+      options:
+        - p1-high
+        - p2-medium
+        - p3-low
+    validations:
+      required: true
+  - type: dropdown
+    id: subsidiary
+    attributes:
+      label: Subsidiary
+      options:
+        - Blackdoor
+        - Atlas
+        - Constellation
+        - Demigod
+    validations:
+      required: true

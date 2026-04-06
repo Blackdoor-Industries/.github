@@ -1,0 +1,37 @@
+name: Feature Request
+description: Propose new functionality
+labels: ["type: feature"]
+body:
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: What should be built and why?
+    validations:
+      required: true
+  - type: textarea
+    id: context
+    attributes:
+      label: Context
+      description: Any additional context, mockups, or references
+  - type: dropdown
+    id: priority
+    attributes:
+      label: Priority
+      options:
+        - p1-high
+        - p2-medium
+        - p3-low
+    validations:
+      required: true
+  - type: dropdown
+    id: subsidiary
+    attributes:
+      label: Subsidiary
+      options:
+        - Blackdoor
+        - Atlas
+        - Constellation
+        - Demigod
+    validations:
+      required: true

@@ -1,0 +1,38 @@
+name: Bug Report
+description: Something isn't working as expected
+labels: ["type: bug"]
+body:
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: What happened? What did you expect?
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to Reproduce
+      description: How can we reproduce the issue?
+  - type: dropdown
+    id: priority
+    attributes:
+      label: Priority
+      options:
+        - p0-critical (system down / data loss)
+        - p1-high (major feature broken)
+        - p2-medium (bug with workaround)
+        - p3-low (cosmetic / minor)
+    validations:
+      required: true
+  - type: dropdown
+    id: subsidiary
+    attributes:
+      label: Subsidiary
+      options:
+        - Blackdoor
+        - Atlas
+        - Constellation
+        - Demigod
+    validations:
+      required: true
