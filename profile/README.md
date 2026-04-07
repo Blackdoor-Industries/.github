@@ -45,18 +45,18 @@ graph TD
     CONST("Constellation<br/>Game Studio")
     DEMI("Demigod<br/>AI Self-Help Ecosystem")
     SHOOT["Shootout<br/>Competitive Action Title"]
-    VN["Adult Visual Novel<br/>Explicit Content Title"]
+    VN["Adult VN<br/>Explicit Content Title"]
     LIFE["LifeOS<br/>Personal Intelligence App"]
-    WEALTH("WealthOS<br/>Financial Intelligence App")
+    WEATH("WeathOS<br/>Financial Intelligence App")
     HEALTH("HealthOS<br/>Health Intelligence App")
 
     BD --> ATLAS
-    BD --> CONST
-    BD --> DEMI
+    ATLAS --> CONST
+    ATLAS --> DEMI
     CONST --> SHOOT
     CONST --> VN
     DEMI --> LIFE
-    LIFE --> WEALTH
+    LIFE --> WEATH
     LIFE --> HEALTH
 
     classDef holding fill:#000,stroke:#888,stroke-width:1px,color:#fff
@@ -69,18 +69,19 @@ graph TD
     class ATLAS platform
     class CONST,DEMI subsidiary
     class SHOOT,VN,LIFE product
-    class WEALTH,HEALTH module
+    class WEATH,HEALTH module
 
-    linkStyle 0,1,2 stroke:#888,stroke-width:2px
-    linkStyle 3,4,5 stroke:#777,stroke-width:1px
+    linkStyle 0 stroke:#888,stroke-width:2px
+    linkStyle 1,2 stroke:#777,stroke-width:2px
+    linkStyle 3,4,5 stroke:#666,stroke-width:1px
     linkStyle 6,7 stroke:#555,stroke-width:1px
 ```
 
 &nbsp;
 
-**Blackdoor Industries** — The holding company. Owns and governs the portfolio — strategy, capital, direction. All operational activity runs through the subsidiaries. We’re bringing autonomous AI workforces to every industry: Technology, Entertainment, Wellness, Finance, Healthcare, Legal, Manufacturing, Logistics, and beyond.
+**Blackdoor Industries** — The holding company. Owns and governs the portfolio — strategy, capital, direction. All operational activity runs through the subsidiaries. We're bringing autonomous AI workforces to every industry: Technology, Entertainment, Wellness, Finance, Healthcare, Legal, Manufacturing, Logistics, and beyond.
 
-**Atlas** — Blackdoor’s core IP and the AI Workforce Platform. Atlas is what Blackdoor sells: executive AI teams — CEOs, CTOs, CMOs — cascading down to project managers, researchers, and field agents that run complete business operations. Every other subsidiary is built on Atlas. The agent conventions, CI workflows, playbooks, and protocols that codify how autonomous teams operate live here.
+**Atlas** — Blackdoor's core IP and the AI Workforce Platform. Atlas is what Blackdoor sells: executive AI teams — CEOs, CTOs, CMOs — cascading down to project managers, researchers, and field agents that run complete business operations. Every other subsidiary is built on Atlas. The agent conventions, CI workflows, playbooks, and protocols that codify how autonomous teams operate live here.
 
 **Constellation** — A game studio running on the Atlas workforce. Produces titles across genres with AI agents handling production pipelines.
 
@@ -127,7 +128,7 @@ flowchart TD
 
 &nbsp;
 
-Every cycle begins with an open question — a problem worth solving or an opportunity worth seizing. We explore the full universe of possibilities before committing to a path, letting research, data, and honest analysis shape what gets built. Agents execute the technical heavy lifting across development and validation; humans bring judgment, craft, and taste. The goal is never “done” — it’s exceptional. We blend the precision of modern AI infrastructure with the ambition of builders who believe technology can transform every industry on earth.
+Every cycle begins with an open question — a problem worth solving or an opportunity worth seizing. We explore the full universe of possibilities before committing to a path, letting research, data, and honest analysis shape what gets built. Agents execute the technical heavy lifting across development and validation; humans bring judgment, craft, and taste. The goal is never "done" — it's exceptional. We blend the precision of modern AI infrastructure with the ambition of builders who believe technology can transform every industry on earth.
 
 </details>
 
