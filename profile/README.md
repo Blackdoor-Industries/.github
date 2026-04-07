@@ -4,15 +4,23 @@
 
 </div>
 
+<table align="center">
+<tr>
+<td width="760">
+
 <p align="left">We provide the AI workforce that runs your autonomous business.</p>
 
-<p align="right">We empower solo founders, small businesses, and enterprises to achieve more than humanly possible.</p>
+<p align="right">We empower solo founders, small businesses, and enterprises<br>to achieve more than humanly possible.</p>
 
-<p align="left">We provide the executive AI teams — CEOs, CTOs, CMOs — cascading down to project managers, researchers, and specialized field agents, that work together to eliminate the manual overhead of starting or running your business.</p>
+<p align="left">We provide the executive AI teams — CEOs, CTOs, CMOs —<br>cascading down to project managers, researchers, and specialized field agents, that work together to eliminate the manual overhead of starting or running your business.</p>
 
-<p align="right">Our agents execute on your specific vision, values, standards, and goals with minimal human friction, allowing you to turn brand new ventures into fully automated businesses or migrate existing manual operations to our autonomous platform.</p>
+<p align="right">Our agents execute on your specific vision, values, standards, and goals<br>with minimal human friction, allowing you to turn brand new ventures into fully automated businesses or migrate existing manual operations to our autonomous platform.</p>
 
 <p align="left">We are not just creating technology; we are changing how the world works.</p>
+
+</td>
+</tr>
+</table>
 
 <div align="center">
 
