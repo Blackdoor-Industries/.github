@@ -43,26 +43,24 @@ graph TD
     BD["Blackdoor Industries<br/>Holding Company"]
     ATLAS[["Atlas<br/>AI Workforce Platform"]]
     CONST("Constellation<br/>Game Studio")
-    DEMI("Demigod<br/>Wellness Platform")
+    DEMI("Demigod<br/>AI Self-Help Ecosystem")
     SHOOT["Shootout<br/>Competitive Action Title"]
-    VN["Adult Visual Novel<br/>Mature Narrative Title"]
-    LIFE["LifeOS<br/>AI Life Coach"]
+    VN["Adult Visual Novel<br/>Explicit Content Title"]
+    LIFE["LifeOS<br/>Personal Intelligence App"]
     WEALTH("WealthOS<br/>Financial Intelligence App")
-    HEALTH("HealthOS<br/>Health & Wellness App")
+    HEALTH("HealthOS<br/>Health Intelligence App")
 
     BD --> ATLAS
     BD --> CONST
     BD --> DEMI
-    ATLAS -.-> CONST
-    ATLAS -.-> DEMI
     CONST --> SHOOT
     CONST --> VN
     DEMI --> LIFE
     LIFE --> WEALTH
     LIFE --> HEALTH
 
-    classDef holding fill:#000,stroke:#bbb,stroke-width:2px,color:#fff
-    classDef platform fill:#0d0d0d,stroke:#888,stroke-width:2px,color:#eee
+    classDef holding fill:#000,stroke:#888,stroke-width:1px,color:#fff
+    classDef platform fill:#0a0a0a,stroke:#fff,stroke-width:4px,color:#fff
     classDef subsidiary fill:#1a1a1a,stroke:#555,color:#ccc
     classDef product fill:#222,stroke:#444,color:#bbb
     classDef module fill:#2a2a2a,stroke:#333,color:#999
@@ -74,9 +72,8 @@ graph TD
     class WEALTH,HEALTH module
 
     linkStyle 0,1,2 stroke:#888,stroke-width:2px
-    linkStyle 3,4 stroke:#555,stroke-width:1px
-    linkStyle 5,6,7 stroke:#777,stroke-width:1px
-    linkStyle 8,9 stroke:#555,stroke-width:1px
+    linkStyle 3,4,5 stroke:#777,stroke-width:1px
+    linkStyle 6,7 stroke:#555,stroke-width:1px
 ```
 
 &nbsp;
@@ -88,13 +85,13 @@ graph TD
 **Constellation** — A game studio running on the Atlas workforce. Produces titles across genres with AI agents handling production pipelines.
 
 - *Shootout* — Competitive multiplayer action title. Pre-production.
-- *Adult Visual Novel* — A mature narrative experience. TypeScript, React 19, Three.js. Working codebase, 3D scrapbook UI, functional content pipeline. Not yet deployed.
+- *Adult Visual Novel* — Explicit content title. TypeScript, React 19, Three.js. Working codebase, 3D scrapbook UI, functional content pipeline. Not yet deployed.
 
-**Demigod** — An AI wellness platform. LifeOS acts as a personal AI life coach — aggregating life data and surfacing guidance through conversation. Companion apps integrate natively, segmenting specific domains and feeding enriched data back into the coach.
+**Demigod** — An AI self-help ecosystem. LifeOS serves as a personal intelligence app — aggregating life data and surfacing actionable guidance through conversation. Companion apps integrate natively, segmenting specific domains and feeding enriched data back into the core.
 
-- *LifeOS* — The AI life coach and central hub. All wellness data flows through here.
-  - *WealthOS* — Standalone financial intelligence app. Natively integrates with LifeOS, segments financial tools, and returns insights to the life coach.
-  - *HealthOS* — Standalone health and wellness app. Same integration model — feeds enriched health data back to LifeOS.
+- *LifeOS* — Personal intelligence hub. Aggregates data across life domains and surfaces recommendations through conversation.
+  - *WealthOS* — Standalone financial intelligence app. Natively integrates with LifeOS, segments financial tools, and returns insights to the hub.
+  - *HealthOS* — Standalone health intelligence app. Same integration model — feeds enriched health data back to LifeOS.
 
 Constellation ships first. Demigod follows. Atlas compounds alongside both.
 
