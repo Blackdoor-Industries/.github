@@ -63,7 +63,7 @@ flowchart TB
     DEMI["Demigod<br/>[AI SaaS]"]:::subsidiary
     SHOOT["Shootout<br/>[Gaming]"]:::product
     VN["20 Questions<br/>[Adult<br/>Entertainment]"]:::product
-    LIFE["LifeOS<br/>[AI Lifestyle<br/>Ecosystem]"]:::product
+    LIFE["LifeOS<br/>[AI Lifestyle<br/>Ecosystem]"]:::ecosystem
     WEATH["WeathOS<br/>[Finance]"]:::module
     HEALTH["HealthOS<br/>[Healthcare]"]:::module
 
@@ -76,11 +76,12 @@ flowchart TB
     LIFE --> WEATH
     LIFE --> HEALTH
 
-    classDef holding fill:#000000,stroke:#1f1f1f,stroke-width:1px,color:#fafafa
-    classDef atlas fill:#ececec,stroke:#111111,stroke-width:2.8px,color:#0f0f0f,font-weight:700
-    classDef subsidiary fill:#0f0f0f,stroke:#343434,stroke-width:1.5px,color:#f0f0f0
-    classDef product fill:#242424,stroke:#585858,stroke-width:1px,color:#dddddd
-    classDef module fill:#3a3a3a,stroke:#7a7a7a,stroke-width:1px,color:#f1f1f1
+    classDef holding fill:#050505,stroke:#202020,stroke-width:1px,color:#fafafa
+    classDef atlas fill:#f1f1f1,stroke:#111111,stroke-width:2.8px,color:#0f0f0f,font-weight:700
+    classDef subsidiary fill:#101010,stroke:#3a3a3a,stroke-width:1.5px,color:#f0f0f0
+    classDef ecosystem fill:#1a1a1a,stroke:#5f5f5f,stroke-width:1.2px,color:#f2f2f2
+    classDef product fill:#262626,stroke:#6a6a6a,stroke-width:1px,color:#e2e2e2
+    classDef module fill:#3c3c3c,stroke:#8c8c8c,stroke-width:1px,color:#f4f4f4
 
     linkStyle 0 stroke:#000000,stroke-width:2.6px
     linkStyle 1,2 stroke:#000000,stroke-width:2px
@@ -88,13 +89,20 @@ flowchart TB
 ```
 
 <details>
-<summary><sub>Diagram legend</sub></summary>
+<summary><sub>Color legend</sub></summary>
 
 &nbsp;
 
-- **Node tone**: Blackdoor = parent portfolio, Atlas = core product focus, subsidiaries = operating units, products = primary offerings, modules = downstream domain products.
-- **Connector weight**: `==>` marks strategic/corporate flow, `-->` marks product/ecosystem flow.
-- **Descriptor format**: bracketed labels (`[...]`) indicate market/industry positioning.
+| Object type | Fill | Stroke | Nodes |
+|:--|:--|:--|:--|
+| Holding company | `#050505` | `#202020` | Blackdoor Industries |
+| AI workforce | `#F1F1F1` | `#111111` | Atlas |
+| Subsidiaries | `#101010` | `#3A3A3A` | Constellation, Demigod |
+| Ecosystem hub | `#1A1A1A` | `#5F5F5F` | LifeOS |
+| Products | `#262626` | `#6A6A6A` | Shootout, 20 Questions |
+| Domain apps | `#3C3C3C` | `#8C8C8C` | WeathOS, HealthOS |
+
+`==>` indicates strategic/corporate flow. `-->` indicates product/ecosystem flow.
 
 </details>
 
