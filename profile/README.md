@@ -8,11 +8,8 @@
 <tr>
 <td width="840">
 
-<p align="left"><strong>We provide the AI workforce that runs your autonomous business.</strong></p>
-
-<br>
-
-<p align="left">We empower solo founders, small businesses, and enterprises<br>to achieve more than humanly possible.</p>
+<p align="left"><strong>We provide the AI workforce that runs your autonomous business.</strong><br>
+<sub>We empower solo founders, small businesses, and enterprises<br>to achieve more than humanly possible.</sub></p>
 
 <br>
 
