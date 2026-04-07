@@ -40,52 +40,61 @@ we are changing how the world works.</em></p>
 
 ```mermaid
 graph TD
-    BD["Blackdoor Industries<br/>AI Workforce Platform"]
-    ATLAS(["Atlas<br/>Agent Infrastructure"])
+    BD["Blackdoor Industries<br/>Holding Company"]
+    ATLAS[["Atlas<br/>AI Workforce Platform"]]
     CONST("Constellation<br/>Game Studio")
-    DEMI("Demigod<br/>AI Assistant Ecosystem")
-    VN["VN Game<br/>Narrative Experience"]
-    SHOOT["Shootout<br/>Action Title"]
-    LIFE["LifeOS<br/>Life Management Hub"]
-    WEALTH["WealthOS<br/>Financial Intelligence"]
-    HEALTH["HealthOS<br/>Health & Wellness"]
+    DEMI("Demigod<br/>Wellness Platform")
+    SHOOT["Shootout<br/>Competitive Action Title"]
+    VN["Adult Visual Novel<br/>Mature Narrative Title"]
+    LIFE["LifeOS<br/>AI Life Coach"]
+    WEALTH("WealthOS<br/>Financial Intelligence App")
+    HEALTH("HealthOS<br/>Health & Wellness App")
 
     BD --> ATLAS
     BD --> CONST
     BD --> DEMI
-    CONST --> VN
+    ATLAS -.-> CONST
+    ATLAS -.-> DEMI
     CONST --> SHOOT
+    CONST --> VN
     DEMI --> LIFE
     LIFE --> WEALTH
     LIFE --> HEALTH
 
-    style BD fill:#0a0a0a,stroke:#aaa,color:#fff
-    style ATLAS fill:#111,stroke:#666,color:#ddd
-    style CONST fill:#1a1a1a,stroke:#555,color:#ccc
-    style DEMI fill:#1a1a1a,stroke:#555,color:#ccc
-    style VN fill:#222,stroke:#444,color:#bbb
-    style SHOOT fill:#222,stroke:#444,color:#bbb
-    style LIFE fill:#222,stroke:#444,color:#bbb
-    style WEALTH fill:#2a2a2a,stroke:#333,color:#999
-    style HEALTH fill:#2a2a2a,stroke:#333,color:#999
+    classDef holding fill:#000,stroke:#bbb,stroke-width:2px,color:#fff
+    classDef platform fill:#0d0d0d,stroke:#888,stroke-width:2px,color:#eee
+    classDef subsidiary fill:#1a1a1a,stroke:#555,color:#ccc
+    classDef product fill:#222,stroke:#444,color:#bbb
+    classDef module fill:#2a2a2a,stroke:#333,color:#999
+
+    class BD holding
+    class ATLAS platform
+    class CONST,DEMI subsidiary
+    class SHOOT,VN,LIFE product
+    class WEALTH,HEALTH module
+
+    linkStyle 0,1,2 stroke:#888,stroke-width:2px
+    linkStyle 3,4 stroke:#555,stroke-width:1px
+    linkStyle 5,6,7 stroke:#777,stroke-width:1px
+    linkStyle 8,9 stroke:#555,stroke-width:1px
 ```
 
 &nbsp;
 
-**Blackdoor Industries** — Parent company and mission holder. Our AI workforce runs autonomous businesses across every industry. We began in Technology, Entertainment, and Lifestyle — and are building toward Finance, Healthcare, Legal, Manufacturing, Logistics, and beyond. Two founders, AI agents, and a plan to change how the world works.
+**Blackdoor Industries** — The holding company. Owns and governs the portfolio — strategy, capital, direction. All operational activity runs through the subsidiaries. We’re bringing autonomous AI workforces to every industry: Technology, Entertainment, Wellness, Finance, Healthcare, Legal, Manufacturing, Logistics, and beyond.
 
-**Atlas** — The agent infrastructure that powers everything at Blackdoor. Not a product for sale — the operational backbone. CLAUDE.md conventions, CI workflows, standardized protocols, and playbooks that let AI agents build and ship across every repo. Atlas matures as the product lines do.
+**Atlas** — Blackdoor’s core IP and the AI Workforce Platform. Atlas is what Blackdoor sells: executive AI teams — CEOs, CTOs, CMOs — cascading down to project managers, researchers, and field agents that run complete business operations. Every other subsidiary is built on Atlas. The agent conventions, CI workflows, playbooks, and protocols that codify how autonomous teams operate live here.
 
-**Constellation** — A game studio that pairs two founders with AI agents to produce narrative-driven interactive experiences.
+**Constellation** — A game studio running on the Atlas workforce. Produces titles across genres with AI agents handling production pipelines.
 
-- *VN Game* — First title. A visual novel built with TypeScript, React 19, and Three.js — working codebase, 3D scrapbook UI, functional content pipeline. Not yet deployed.
-- *Shootout* — Second title. A competitive action game. Pre-production.
+- *Shootout* — Competitive multiplayer action title. Pre-production.
+- *Adult Visual Novel* — A mature narrative experience. TypeScript, React 19, Three.js. Working codebase, 3D scrapbook UI, functional content pipeline. Not yet deployed.
 
-**Demigod** — An AI personal assistant ecosystem designed to aggregate life data and surface intelligent recommendations through conversation.
+**Demigod** — An AI wellness platform. LifeOS acts as a personal AI life coach — aggregating life data and surfacing guidance through conversation. Companion apps integrate natively, segmenting specific domains and feeding enriched data back into the coach.
 
-- *LifeOS* — The central hub. Aggregates data across life domains and routes it through purpose-built modules. Currently in planning.
-  - *WealthOS* — Financial intelligence module.
-  - *HealthOS* — Health and wellness module.
+- *LifeOS* — The AI life coach and central hub. All wellness data flows through here.
+  - *WealthOS* — Standalone financial intelligence app. Natively integrates with LifeOS, segments financial tools, and returns insights to the life coach.
+  - *HealthOS* — Standalone health and wellness app. Same integration model — feeds enriched health data back to LifeOS.
 
 Constellation ships first. Demigod follows. Atlas compounds alongside both.
 
@@ -121,7 +130,7 @@ flowchart TD
 
 &nbsp;
 
-Every cycle begins with an open question — a problem worth solving or an opportunity worth seizing. We explore the full universe of possibilities before committing to a path, letting research, data, and honest analysis shape what gets built. Agents execute the technical heavy lifting across development and validation; humans bring judgment, craft, and taste. The goal is never "done" — it's exceptional. We blend the precision of modern AI infrastructure with the ambition of builders who believe technology can transform every industry on earth.
+Every cycle begins with an open question — a problem worth solving or an opportunity worth seizing. We explore the full universe of possibilities before committing to a path, letting research, data, and honest analysis shape what gets built. Agents execute the technical heavy lifting across development and validation; humans bring judgment, craft, and taste. The goal is never “done” — it’s exceptional. We blend the precision of modern AI infrastructure with the ambition of builders who believe technology can transform every industry on earth.
 
 </details>
 
