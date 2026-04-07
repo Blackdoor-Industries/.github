@@ -57,15 +57,15 @@ we are changing how the world works.</em></p>
   }
 }}%%
 flowchart TB
-    BD["Blackdoor Industries<br/>[Holding Company]"]:::holding
-    ATLAS["Atlas<br/>[AI Workforce Platform]"]:::atlas
-    CONST["Constellation<br/>[Game Studio]"]:::subsidiary
-    DEMI["Demigod<br/>[AI Self-Help Ecosystem]"]:::subsidiary
-    SHOOT["Shootout<br/>[Competitive Action Title]"]:::product
-    VN["Adult VN<br/>[Explicit Content Title]"]:::product
-    LIFE["LifeOS<br/>[Personal Intelligence App]"]:::product
-    WEATH["WeathOS<br/>[Financial Intelligence App]"]:::module
-    HEALTH["HealthOS<br/>[Health Intelligence App]"]:::module
+    BD["Blackdoor Industries<br/>[Cross-Industry Portfolio]"]:::holding
+    ATLAS["Atlas<br/>[Cross-Industry Infrastructure]"]:::atlas
+    CONST["Constellation<br/>[Entertainment]"]:::subsidiary
+    DEMI["Demigod<br/>[Wellness]"]:::subsidiary
+    SHOOT["Shootout<br/>[Gaming]"]:::product
+    VN["Adult VN<br/>[Adult Entertainment]"]:::product
+    LIFE["LifeOS<br/>[Lifestyle]"]:::product
+    WEATH["WeathOS<br/>[Finance]"]:::module
+    HEALTH["HealthOS<br/>[Healthcare]"]:::module
 
     BD ==> ATLAS
     ATLAS ==> CONST
