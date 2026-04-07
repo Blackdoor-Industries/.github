@@ -5,15 +5,16 @@
 </div>
 
 <p align="left"><strong>We provide the AI workforce<br>that runs your autonomous business.</strong><br>
-<sub>We empower solo founders, small businesses, and enterprises<br>to achieve more than humanly possible.</sub></p>
+We empower solo founders, small businesses,<br>
+and enterprises to achieve more than humanly possible.</p>
 
 <br>
 
-<p align="right">We provide the executive AI teams — CEOs, CTOs, CMOs —<br>cascading down to project managers, researchers, and specialized field agents,<br>that work together to eliminate the manual overhead<br>of starting or running your business.</p>
+<p align="right">We provide the executive AI teams — CEOs, CTOs, CMOs —<br>cascading down to project managers, researchers,<br>and specialized field agents, that work together<br>to eliminate the manual overhead<br>of starting or running your business.</p>
 
 <br>
 
-<p align="right">Our agents execute on your specific vision, values, standards, and goals<br>with minimal human friction, allowing you to turn brand new ventures<br>into fully automated businesses or migrate existing manual operations<br>to our autonomous platform.</p>
+<p align="right">Our agents execute on your specific vision, values, standards, and goals<br>with minimal human friction, allowing you to turn brand new ventures<br>into fully automated businesses<br>or migrate existing manual operations<br>to our autonomous platform.</p>
 
 <br>
 
@@ -22,15 +23,15 @@
 <div align="center">
 
 <a href="https://github.com/Blackdoor-Industries/blackdoor-docs">
-<img src="https://img.shields.io/badge/STAGE-PRE--REVENUE-111111?style=for-the-badge&labelColor=000000" alt="Stage: Pre-revenue">
+<img src="https://img.shields.io/badge/STAGE-PRE--REVENUE-2b2b2b?style=flat-square&labelColor=111111" alt="Stage: Pre-revenue">
 </a>
 &nbsp;
 <a href="https://github.com/Blackdoor-Industries/blackdoor-docs">
-<img src="https://img.shields.io/badge/CAPITAL-SELF--FUNDED-111111?style=for-the-badge&labelColor=000000" alt="Capital: Self-funded">
+<img src="https://img.shields.io/badge/CAPITAL-SELF--FUNDED-2b2b2b?style=flat-square&labelColor=111111" alt="Capital: Self-funded">
 </a>
 &nbsp;
 <a href="https://github.com/Blackdoor-Industries/atlas-docs">
-<img src="https://img.shields.io/badge/MODEL-2_FOUNDERS_%2B_AI_AGENTS-111111?style=for-the-badge&labelColor=000000" alt="Model: 2 founders + AI agents">
+<img src="https://img.shields.io/badge/MODEL-2_FOUNDERS_%2B_AI_AGENTS-2b2b2b?style=flat-square&labelColor=111111" alt="Model: 2 founders + AI agents">
 </a>
 
 </div>
