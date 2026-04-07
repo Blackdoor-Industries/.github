@@ -61,11 +61,11 @@ flowchart TB
     ATLAS["Atlas<br/>[Cross-Industry Infrastructure]"]:::atlas
     CONST["Constellation<br/>[Entertainment]"]:::subsidiary
     DEMI["Demigod<br/>[Wellness]"]:::subsidiary
-    SHOOT["Shootout<br/>[Product]"]:::product
-    VN["Adult VN<br/>[Product]"]:::product
-    LIFE["LifeOS<br/>[Product]"]:::product
-    WEATH["WeathOS<br/>[Product]"]:::module
-    HEALTH["HealthOS<br/>[Product]"]:::module
+    SHOOT["Shootout<br/>[Gaming]"]:::product
+    VN["Adult VN<br/>[Adult Entertainment]"]:::product
+    LIFE["LifeOS<br/>[Lifestyle]"]:::product
+    WEATH["WeathOS<br/>[Finance]"]:::module
+    HEALTH["HealthOS<br/>[Healthcare]"]:::module
 
     BD ==> ATLAS
     ATLAS ==> CONST
@@ -76,11 +76,11 @@ flowchart TB
     LIFE --> WEATH
     LIFE --> HEALTH
 
-    classDef holding fill:#0a0a0a,stroke:#4f4f4f,stroke-width:1px,color:#f2f2f2
-    classDef atlas fill:#f5f5f5,stroke:#2b2b2b,stroke-width:2.8px,color:#111,font-weight:700
-    classDef subsidiary fill:#151515,stroke:#626262,stroke-width:1.5px,color:#e3e3e3
-    classDef product fill:#1c1c1c,stroke:#4a4a4a,stroke-width:1px,color:#d4d4d4
-    classDef module fill:#232323,stroke:#3b3b3b,stroke-width:1px,color:#b8b8b8
+    classDef holding fill:#050505,stroke:#2f2f2f,stroke-width:1px,color:#f8f8f8
+    classDef atlas fill:#f0f0f0,stroke:#1a1a1a,stroke-width:2.8px,color:#101010,font-weight:700
+    classDef subsidiary fill:#121212,stroke:#3a3a3a,stroke-width:1.5px,color:#e8e8e8
+    classDef product fill:#1f1f1f,stroke:#555555,stroke-width:1px,color:#d9d9d9
+    classDef module fill:#2b2b2b,stroke:#6a6a6a,stroke-width:1px,color:#c9c9c9
 
     linkStyle 0 stroke:#000000,stroke-width:2.6px
     linkStyle 1,2 stroke:#000000,stroke-width:2px
