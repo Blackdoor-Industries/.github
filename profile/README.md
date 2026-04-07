@@ -4,34 +4,18 @@
 
 </div>
 
-<p align="right">We provide the AI workforce<br>
+<p align="left">We provide the AI workforce<br>
 that runs your autonomous business.<br>
 We empower solo founders, small businesses,<br>
 and enterprises to achieve more than humanly possible.</p>
 
 <br>
 
-<p align="left">We provide the executive AI teams — CEOs, CTOs, CMOs —<br>cascading down to project managers, researchers,<br>and specialized field agents, that work together<br>to eliminate the manual overhead<br>of starting or running your business.</p>
+<p align="right">We provide the executive AI teams — CEOs, CTOs, CMOs —<br>cascading down to project managers, researchers,<br>and specialized field agents, that work together<br>to eliminate the manual overhead<br>of starting or running your business.</p>
 
-<p align="left">Our agents execute on your specific vision, values, standards, and goals<br>with minimal human friction, allowing you to turn brand new ventures<br>into fully automated businesses or migrate existing manual operations<br>to our autonomous platform.</p>
+<p align="right">Our agents execute on your specific vision, values, standards, and goals<br>with minimal human friction, allowing you to turn brand new ventures<br>into fully automated businesses or migrate existing manual operations<br>to our autonomous platform.</p>
 
-<p align="left">We are not just creating technology;<br>we are changing how the world works.</p>
-
-<div align="center">
-
-<a href="https://github.com/Blackdoor-Industries/blackdoor-docs">
-<img src="https://img.shields.io/badge/Pre--revenue-1d1d1d?style=flat-square" alt="Pre-revenue">
-</a>
-&nbsp;
-<a href="https://github.com/Blackdoor-Industries/blackdoor-docs">
-<img src="https://img.shields.io/badge/Self--funded-1d1d1d?style=flat-square" alt="Self-funded">
-</a>
-&nbsp;
-<a href="https://github.com/Blackdoor-Industries/atlas-docs">
-<img src="https://img.shields.io/badge/2%20founders%20%2B%20AI%20agents-1d1d1d?style=flat-square" alt="2 founders + AI agents">
-</a>
-
-</div>
+<p align="right">We are not just creating technology;<br>we are changing how the world works.</p>
 
 ---
 
