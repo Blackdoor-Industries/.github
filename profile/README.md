@@ -23,7 +23,7 @@ and enterprises to achieve <strong>more than humanly possible.</strong><br>
 We are not just creating technology;<br>
 we are changing how the world works.</p>
 <details open>
-<summary><h2>Organization</h2></summary>
+<summary><h1>Organization</h1></summary>
 
 &nbsp;
 
