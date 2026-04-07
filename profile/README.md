@@ -6,8 +6,8 @@
 
 <br>
 
-<h3 align="left">We provide the AI workforce<br>
-that runs your autonomous business.</h3>
+<h4 align="left">We provide the AI workforce<br>
+<strong>that runs your autonomous business.</strong></h4>
 
 <p align="right">We provide the executive AI teams — CEOs, CTOs, CMOs —<br>
 cascading down to project managers, researchers,<br>
@@ -19,10 +19,10 @@ with minimal human friction, allowing you to turn brand new ventures<br>
 into fully automated businesses or migrate existing manual operations<br>
 to our autonomous platform.</p>
 
-<p align="left">We empower solo founders, small businesses,<br>
-and enterprises to achieve <strong>more than humanly possible.</strong><br>
-<br>
-We are not just creating technology;<br>
+<h5 align="left">We empower solo founders, small businesses,<br>
+and enterprises to achieve <strong>more than humanly possible.</strong></h5>
+
+<p align="left">We are not just creating technology;<br>
 we are changing how the world works.</p>
 <details open>
 <summary><h1>Organization</h1></summary>
