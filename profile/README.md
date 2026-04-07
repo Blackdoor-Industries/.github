@@ -1,5 +1,5 @@
 <div align="right">
-<sub><strong>PRE-REVENUE</strong> / <strong>SELF-FUNDED</strong> / <strong>2 FOUNDERS</strong> / <strong>AI AGENTS</strong></sub>
+<sub><em><ins>PRE-REVENUE</ins> <ins>SELF-FUNDED</ins> <ins>2 FOUNDERS</ins> <ins>AI AGENTS</ins></em></sub>
 </div>
 
 <br>
