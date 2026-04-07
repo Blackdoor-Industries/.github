@@ -42,7 +42,7 @@ we are changing how the world works.</em></p>
 %%{init: {
   "theme": "base",
   "flowchart": {
-    "curve": "basis",
+    "curve": "linear",
     "nodeSpacing": 40,
     "rankSpacing": 64
   },
@@ -57,15 +57,15 @@ we are changing how the world works.</em></p>
   }
 }}%%
 flowchart TB
-    BD(["Blackdoor Industries<br/>[Cross-Industry Portfolio]"]):::holding
-    ATLAS[["Atlas<br/>[Cross-Industry AI Workforce]"]]:::atlas
-    CONST("Constellation<br/>[Entertainment]"):::subsidiary
-    DEMI("Demigod<br/>[Wellness]"):::subsidiary
-    SHOOT[/"Shootout<br/>[Gaming]"/]:::product
-    VN[/"20 Questions<br/>[Adult Entertainment]"/]:::product
-    LIFE[/"LifeOS<br/>[Lifestyle Ecosystem Hub]"/]:::product
-    WEATH[("WeathOS<br/>[Finance]")]:::module
-    HEALTH[("HealthOS<br/>[Healthcare]")]:::module
+    BD["Blackdoor Industries<br/>[Cross-Industry Portfolio]"]:::holding
+    ATLAS["Atlas<br/>[Cross-Industry AI Workforce]"]:::atlas
+    CONST["Constellation<br/>[Entertainment]"]:::subsidiary
+    DEMI["Demigod<br/>[Wellness]"]:::subsidiary
+    SHOOT["Shootout<br/>[Gaming]"]:::product
+    VN["20 Questions<br/>[Adult Entertainment]"]:::product
+    LIFE["LifeOS<br/>[Lifestyle Ecosystem Hub]"]:::product
+    WEATH["WeathOS<br/>[Finance]"]:::module
+    HEALTH["HealthOS<br/>[Healthcare]"]:::module
 
     BD ==> ATLAS
     ATLAS ==> CONST
