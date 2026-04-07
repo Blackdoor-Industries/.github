@@ -89,20 +89,18 @@ flowchart TB
 ```
 
 <details>
-<summary><sub>Color legend</sub></summary>
+<summary><sub>Visual color legend</sub></summary>
 
 &nbsp;
 
-| Object type | Fill | Stroke | Nodes |
-|:--|:--|:--|:--|
-| Holding company | `#050505` | `#202020` | Blackdoor Industries |
-| AI workforce | `#F1F1F1` | `#111111` | Atlas |
-| Subsidiaries | `#101010` | `#3A3A3A` | Constellation, Demigod |
-| Ecosystem hub | `#1A1A1A` | `#5F5F5F` | LifeOS |
-| Products | `#262626` | `#6A6A6A` | Shootout, 20 Questions |
-| Domain apps | `#3C3C3C` | `#8C8C8C` | WeathOS, HealthOS |
-
-`==>` indicates strategic/corporate flow. `-->` indicates product/ecosystem flow.
+| Object type | Fill swatch | Stroke swatch | Nodes |
+|:--|:--:|:--:|:--|
+| Holding company | ![fill #050505](https://img.shields.io/badge/%20-%20-050505?style=flat-square&labelColor=050505&color=050505) `#050505` | ![stroke #202020](https://img.shields.io/badge/%20-%20-202020?style=flat-square&labelColor=202020&color=202020) `#202020` | Blackdoor Industries |
+| AI workforce | ![fill #F1F1F1](https://img.shields.io/badge/%20-%20-F1F1F1?style=flat-square&labelColor=F1F1F1&color=F1F1F1) `#F1F1F1` | ![stroke #111111](https://img.shields.io/badge/%20-%20-111111?style=flat-square&labelColor=111111&color=111111) `#111111` | Atlas |
+| Subsidiaries | ![fill #101010](https://img.shields.io/badge/%20-%20-101010?style=flat-square&labelColor=101010&color=101010) `#101010` | ![stroke #3A3A3A](https://img.shields.io/badge/%20-%20-3A3A3A?style=flat-square&labelColor=3A3A3A&color=3A3A3A) `#3A3A3A` | Constellation, Demigod |
+| Ecosystem hub | ![fill #1A1A1A](https://img.shields.io/badge/%20-%20-1A1A1A?style=flat-square&labelColor=1A1A1A&color=1A1A1A) `#1A1A1A` | ![stroke #5F5F5F](https://img.shields.io/badge/%20-%20-5F5F5F?style=flat-square&labelColor=5F5F5F&color=5F5F5F) `#5F5F5F` | LifeOS |
+| Products | ![fill #262626](https://img.shields.io/badge/%20-%20-262626?style=flat-square&labelColor=262626&color=262626) `#262626` | ![stroke #6A6A6A](https://img.shields.io/badge/%20-%20-6A6A6A?style=flat-square&labelColor=6A6A6A&color=6A6A6A) `#6A6A6A` | Shootout, 20 Questions |
+| Domain apps | ![fill #3C3C3C](https://img.shields.io/badge/%20-%20-3C3C3C?style=flat-square&labelColor=3C3C3C&color=3C3C3C) `#3C3C3C` | ![stroke #8C8C8C](https://img.shields.io/badge/%20-%20-8C8C8C?style=flat-square&labelColor=8C8C8C&color=8C8C8C) `#8C8C8C` | WeathOS, HealthOS |
 
 </details>
 
