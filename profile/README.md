@@ -12,19 +12,19 @@
 
 <br>
 
-<p align="right">We empower solo founders, small businesses, and enterprises<br>to achieve more than humanly possible.</p>
+<p align="left">We empower solo founders, small businesses, and enterprises<br>to achieve more than humanly possible.</p>
 
 <br>
 
-<p align="left">We provide the executive AI teams — CEOs, CTOs, CMOs — cascading down<br>to project managers, researchers, and specialized field agents, that work together<br>to eliminate the manual overhead of starting or running your business.</p>
+<p align="right">We provide the executive AI teams — CEOs, CTOs, CMOs — cascading down<br>to project managers, researchers, and specialized field agents, that work together<br>to eliminate the manual overhead of starting or running your business.</p>
 
 <br>
 
-<p align="left">Our agents execute on your specific vision, values, standards, and goals with minimal human friction,<br>allowing you to turn brand new ventures into fully automated businesses<br>or migrate existing manual operations to our autonomous platform.</p>
+<p align="right">Our agents execute on your specific vision, values, standards, and goals with minimal human friction,<br>allowing you to turn brand new ventures into fully automated businesses<br>or migrate existing manual operations to our autonomous platform.</p>
 
 <br>
 
-<p align="right"><em>We are not just creating technology;<br>we are changing how the world works.</em></p>
+<p align="left"><em>We are not just creating technology;<br>we are changing how the world works.</em></p>
 
 </td>
 </tr>
