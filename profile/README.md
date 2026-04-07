@@ -57,15 +57,15 @@ we are changing how the world works.</em></p>
   }
 }}%%
 flowchart TB
-    BD["Blackdoor Industries<br/>[Cross-Industry Portfolio]"]:::holding
-    ATLAS["Atlas<br/>[Cross-Industry Infrastructure]"]:::atlas
-    CONST["Constellation<br/>[Entertainment]"]:::subsidiary
-    DEMI["Demigod<br/>[Wellness]"]:::subsidiary
-    SHOOT["Shootout<br/>[Gaming]"]:::product
-    VN["20 Questions<br/>[Adult Entertainment]"]:::product
-    LIFE["LifeOS<br/>[Lifestyle]"]:::product
-    WEATH["WeathOS<br/>[Finance]"]:::module
-    HEALTH["HealthOS<br/>[Healthcare]"]:::module
+    BD(["Blackdoor Industries<br/>[Cross-Industry Portfolio]"]):::holding
+    ATLAS[["Atlas<br/>[Cross-Industry AI Workforce]"]]:::atlas
+    CONST("Constellation<br/>[Entertainment]"):::subsidiary
+    DEMI("Demigod<br/>[Wellness]"):::subsidiary
+    SHOOT[/"Shootout<br/>[Gaming]"/]:::product
+    VN[/"20 Questions<br/>[Adult Entertainment]"/]:::product
+    LIFE[/"LifeOS<br/>[Lifestyle Ecosystem Hub]"/]:::product
+    WEATH[("WeathOS<br/>[Finance]")]:::module
+    HEALTH[("HealthOS<br/>[Healthcare]")]:::module
 
     BD ==> ATLAS
     ATLAS ==> CONST
@@ -91,16 +91,16 @@ flowchart TB
 
 **Blackdoor Industries** — The holding company. Owns and governs the portfolio — strategy, capital, direction. All operational activity runs through the subsidiaries. We're bringing autonomous AI workforces to every industry: Technology, Entertainment, Wellness, Finance, Healthcare, Legal, Manufacturing, Logistics, and beyond.
 
-**Atlas** — Blackdoor's core IP and the AI Workforce Platform. Atlas is what Blackdoor sells: executive AI teams — CEOs, CTOs, CMOs — cascading down to project managers, researchers, and field agents that run complete business operations. Every other subsidiary is built on Atlas. The agent conventions, CI workflows, playbooks, and protocols that codify how autonomous teams operate live here.
+**Atlas** — Blackdoor's core IP and the AI Workforce. Atlas is what Blackdoor sells: executive AI teams — CEOs, CTOs, CMOs — cascading down to project managers, researchers, and field agents that run complete business operations. Every other subsidiary is built on Atlas. The agent conventions, CI workflows, playbooks, and protocols that codify how autonomous teams operate live here.
 
 **Constellation** — A game studio running on the Atlas workforce. Produces titles across genres with AI agents handling production pipelines.
 
 - *Shootout* — Competitive multiplayer action title. Pre-production.
 - *20 Questions* — Explicit content title. TypeScript, React 19, Three.js. Working codebase, 3D scrapbook UI, functional content pipeline. Not yet deployed.
 
-**Demigod** — An AI self-help ecosystem. LifeOS serves as a personal intelligence app — aggregating life data and surfacing actionable guidance through conversation. Companion apps integrate natively, segmenting specific domains and feeding enriched data back into the core.
+**Demigod** — An AI self-help ecosystem. LifeOS serves as the ecosystem hub — aggregating life data and surfacing actionable guidance through conversation. Companion apps integrate natively, segmenting specific domains and feeding enriched data back into the core.
 
-- *LifeOS* — Personal intelligence hub. Aggregates data across life domains and surfaces recommendations through conversation.
+- *LifeOS* — Ecosystem hub. Aggregates data across life domains and surfaces recommendations through conversation.
   - *WealthOS* — Standalone financial intelligence app. Natively integrates with LifeOS, segments financial tools, and returns insights to the hub.
   - *HealthOS* — Standalone health intelligence app. Same integration model — feeds enriched health data back to LifeOS.
 
