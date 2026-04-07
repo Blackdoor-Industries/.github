@@ -1,8 +1,6 @@
 <div align="right">
 
-![Pre-revenue](https://img.shields.io/badge/Pre--revenue-111111?style=flat-square)
-![Self-funded](https://img.shields.io/badge/Self--funded-111111?style=flat-square)
-![2 founders + AI agents](https://img.shields.io/badge/2%20founders%20%2B%20AI%20agents-111111?style=flat-square)
+<sub><code>Pre-revenue</code> <code>Self-funded</code> <code>2 founders + AI agents</code></sub>
 
 </div>
 
