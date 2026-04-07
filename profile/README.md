@@ -4,23 +4,31 @@
 
 </div>
 
-<p align="center"><strong>We provide the AI workforce that runs your autonomous business.</strong></p>
+<table align="center" border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td width="840">
+
+<p align="left"><strong>We provide the AI workforce that runs your autonomous business.</strong></p>
 
 <br>
 
-<p align="right">We empower solo founders, small businesses,<br>and enterprises to achieve more than humanly possible.</p>
+<p align="right">We empower solo founders, small businesses, and enterprises<br>to achieve more than humanly possible.</p>
 
 <br>
 
-<p align="left">We provide the executive AI teams — CEOs, CTOs, CMOs —<br>cascading down to project managers, researchers, and specialized field agents,<br>that work together to eliminate the manual overhead<br>of starting or running your business.</p>
+<p align="left">We provide the executive AI teams — CEOs, CTOs, CMOs — cascading down<br>to project managers, researchers, and specialized field agents, that work together<br>to eliminate the manual overhead of starting or running your business.</p>
 
 <br>
 
-<p align="left">Our agents execute on your specific vision, values, standards, and goals<br>with minimal human friction, allowing you to turn brand new ventures<br>into fully automated businesses or migrate existing manual operations<br>to our autonomous platform.</p>
+<p align="left">Our agents execute on your specific vision, values, standards, and goals with minimal human friction,<br>allowing you to turn brand new ventures into fully automated businesses<br>or migrate existing manual operations to our autonomous platform.</p>
 
-<br><br>
+<br>
 
 <p align="right"><em>We are not just creating technology;<br>we are changing how the world works.</em></p>
+
+</td>
+</tr>
+</table>
 
 <div align="center">
 
