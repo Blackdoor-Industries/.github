@@ -9,8 +9,6 @@
 <p align="left">We provide the AI workforce<br>
 <strong>that runs your autonomous business.</strong></p>
 
-<br>
-
 <p align="right">We provide the executive AI teams — CEOs, CTOs, CMOs —<br>
 cascading down to project managers, researchers, and specialized field agents,<br>
 that work together to eliminate the manual overhead<br>
@@ -24,9 +22,9 @@ to our autonomous platform.</p>
 <br>
 
 <p align="left">We empower solo founders, small businesses,<br>
-and enterprises to achieve <strong>more than humanly possible.</strong></p>
-
-<p align="left">We are not just creating technology;<br>
+and enterprises to achieve <strong>more than humanly possible.</strong><br>
+<br>
+We are not just creating technology;<br>
 we are changing how the world works.</p>
 <details open>
 <summary><h1>Organization</h1></summary>
