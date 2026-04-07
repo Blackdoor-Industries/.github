@@ -1,26 +1,11 @@
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/Blackdoor-Industries/.github/main/profile/assets/logo.png" alt="Blackdoor Industries" width="336">
+<img src="https://raw.githubusercontent.com/Blackdoor-Industries/.github/main/profile/assets/hero-opening-v2.png" alt="Blackdoor Industries hero opening" width="920">
 
 </div>
 
 <p align="center"><strong>We provide the AI workforce that runs your autonomous business.</strong></p>
-
-<br>
-
-<p align="right">We empower solo founders, small businesses,<br>and enterprises to achieve more than humanly possible.</p>
-
-<br>
-
-<p align="left">We provide the executive AI teams — CEOs, CTOs, CMOs —<br>cascading down to project managers, researchers, and specialized field agents,<br>that work together to eliminate the manual overhead<br>of starting or running your business.</p>
-
-<br>
-
-<p align="left">Our agents execute on your specific vision, values, standards, and goals<br>with minimal human friction, allowing you to turn brand new ventures<br>into fully automated businesses or migrate existing manual operations<br>to our autonomous platform.</p>
-
-<br><br>
-
-<p align="right"><em>We are not just creating technology;<br>we are changing how the world works.</em></p>
+<p align="center"><sub>Executive AI teams aligned to your vision, values, standards, and goals.</sub></p>
 
 <div align="center">
 
