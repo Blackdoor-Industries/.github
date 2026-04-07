@@ -13,26 +13,22 @@ and enterprises to achieve more than humanly possible.</p>
 
 <p align="right">We provide the executive AI teams — CEOs, CTOs, CMOs —<br>cascading down to project managers, researchers,<br>and specialized field agents, that work together<br>to eliminate the manual overhead<br>of starting or running your business.</p>
 
-<br>
+<p align="right">Our agents execute on your specific vision, values, standards, and goals<br>with minimal human friction, allowing you to turn brand new ventures<br>into fully automated businesses or migrate existing manual operations<br>to our autonomous platform.</p>
 
-<p align="right">Our agents execute on your specific vision, values, standards, and goals<br>with minimal human friction, allowing you to turn brand new ventures<br>into fully automated businesses<br>or migrate existing manual operations<br>to our autonomous platform.</p>
-
-<br>
-
-<p align="left">We are not just creating technology;<br>we are changing how the world works.</p>
+<p align="right">We are not just creating technology;<br>we are changing how the world works.</p>
 
 <div align="center">
 
 <a href="https://github.com/Blackdoor-Industries/blackdoor-docs">
-<img src="https://img.shields.io/badge/STAGE-PRE--REVENUE-2b2b2b?style=flat-square&labelColor=111111" alt="Stage: Pre-revenue">
+<img src="https://img.shields.io/badge/Pre--revenue-1d1d1d?style=flat-square" alt="Pre-revenue">
 </a>
 &nbsp;
 <a href="https://github.com/Blackdoor-Industries/blackdoor-docs">
-<img src="https://img.shields.io/badge/CAPITAL-SELF--FUNDED-2b2b2b?style=flat-square&labelColor=111111" alt="Capital: Self-funded">
+<img src="https://img.shields.io/badge/Self--funded-1d1d1d?style=flat-square" alt="Self-funded">
 </a>
 &nbsp;
 <a href="https://github.com/Blackdoor-Industries/atlas-docs">
-<img src="https://img.shields.io/badge/MODEL-2_FOUNDERS_%2B_AI_AGENTS-2b2b2b?style=flat-square&labelColor=111111" alt="Model: 2 founders + AI agents">
+<img src="https://img.shields.io/badge/2%20founders%20%2B%20AI%20agents-1d1d1d?style=flat-square" alt="2 founders + AI agents">
 </a>
 
 </div>
