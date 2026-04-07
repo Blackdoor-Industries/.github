@@ -19,8 +19,8 @@ with minimal human friction, allowing you to turn brand new ventures<br>
 into fully automated businesses or migrate existing manual operations<br>
 to our autonomous platform.</p>
 
-<h5 align="left">We empower solo founders, small businesses,<br>
-and enterprises to achieve <strong>more than humanly possible.</strong></h5>
+<p align="left">We empower solo founders, small businesses,<br>
+and enterprises to achieve <strong>more than humanly possible.</strong></p>
 
 <p align="left">We are not just creating technology;<br>
 we are changing how the world works.</p>
