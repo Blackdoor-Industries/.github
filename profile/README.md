@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/Blackdoor-Industries/.github/main/profile/assets/ChatGPT%20Image%20Mar%206%2C%202026%20at%2009_34_27%20PM.png" alt="Blackdoor Industries" width="336">
+<img src="https://raw.githubusercontent.com/Blackdoor-Industries/.github/main/profile/logo.png" alt="Blackdoor Industries" width="336">
 
 </div>
 
