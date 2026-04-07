@@ -26,10 +26,7 @@ and enterprises to achieve more than humanly possible.</h4>
 we are changing how the world works.</em></p>
 
 <div align="center">
-
-![Pre-revenue](https://img.shields.io/badge/Pre--revenue-111111?style=flat-square)
-![Self-funded](https://img.shields.io/badge/Self--funded-111111?style=flat-square)
-![2 founders + AI agents](https://img.shields.io/badge/2%20founders%20%2B%20AI%20agents-111111?style=flat-square)
+<sub>Pre-revenue · Self-funded · 2 founders + AI agents</sub>
 
 </div>
 <details open>
