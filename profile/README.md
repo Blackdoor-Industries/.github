@@ -1,10 +1,6 @@
 <div align="center">
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Blackdoor-Industries/.github/main/profile/assets/banner-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Blackdoor-Industries/.github/main/profile/assets/banner-light.svg">
-  <img src="https://raw.githubusercontent.com/Blackdoor-Industries/.github/main/profile/assets/banner-dark.svg" alt="Blackdoor Industries" width="100%">
-</picture>
+![Blackdoor Industries](https://raw.githubusercontent.com/Blackdoor-Industries/.github/main/profile/assets/ChatGPT%20Image%20Mar%206%2C%202026%20at%2009_34_27%20PM.png)
 
 </div>
 
