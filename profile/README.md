@@ -62,7 +62,7 @@ flowchart TB
     CONST["Constellation<br/>[Entertainment]"]:::subsidiary
     DEMI["Demigod<br/>[Wellness]"]:::subsidiary
     SHOOT["Shootout<br/>[Gaming]"]:::product
-    VN["Adult VN<br/>[Adult Entertainment]"]:::product
+    VN["20 Questions<br/>[Adult Entertainment]"]:::product
     LIFE["LifeOS<br/>[Lifestyle]"]:::product
     WEATH["WeathOS<br/>[Finance]"]:::module
     HEALTH["HealthOS<br/>[Healthcare]"]:::module
@@ -96,7 +96,7 @@ flowchart TB
 **Constellation** — A game studio running on the Atlas workforce. Produces titles across genres with AI agents handling production pipelines.
 
 - *Shootout* — Competitive multiplayer action title. Pre-production.
-- *Adult Visual Novel* — Explicit content title. TypeScript, React 19, Three.js. Working codebase, 3D scrapbook UI, functional content pipeline. Not yet deployed.
+- *20 Questions* — Explicit content title. TypeScript, React 19, Three.js. Working codebase, 3D scrapbook UI, functional content pipeline. Not yet deployed.
 
 **Demigod** — An AI self-help ecosystem. LifeOS serves as a personal intelligence app — aggregating life data and surfacing actionable guidance through conversation. Companion apps integrate natively, segmenting specific domains and feeding enriched data back into the core.
 
