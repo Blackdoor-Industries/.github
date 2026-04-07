@@ -1,7 +1,5 @@
 <div align="right">
-
 <sub><code>Pre-revenue</code> <code>Self-funded</code> <code>2 founders</code> <code>AI agents</code></sub>
-
 </div>
 
 <br>
