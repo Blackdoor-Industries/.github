@@ -23,7 +23,7 @@ to our autonomous platform.</p>
 
 <br>
 
-<p align="center">We empower solo founders, small businesses,<br>
+<p align="left">We empower solo founders, small businesses,<br>
 and enterprises to achieve <strong>more than humanly possible.</strong></p>
 
 <p align="left">We are not just creating technology;<br>
