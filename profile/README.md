@@ -22,8 +22,16 @@ to our autonomous platform.</p>
 <h4 align="left">We empower solo founders, small businesses,<br>
 and enterprises to achieve more than humanly possible.</h4>
 
-<p align="left">We are not just creating technology;<br>
-we are changing how the world works.</p>
+<p align="left"><em>We are not just creating technology;<br>
+we are changing how the world works.</em></p>
+
+<div align="center">
+
+![Pre-revenue](https://img.shields.io/badge/Pre--revenue-111111?style=flat-square)
+![Self-funded](https://img.shields.io/badge/Self--funded-111111?style=flat-square)
+![2 founders + AI agents](https://img.shields.io/badge/2%20founders%20%2B%20AI%20agents-111111?style=flat-square)
+
+</div>
 <details open>
 <summary><h1>Organization</h1></summary>
 
@@ -201,9 +209,3 @@ Org-wide standards:
 Agent infrastructure is documented in [`atlas-docs`](https://github.com/Blackdoor-Industries/atlas-docs).
 
 </details>
-
----
-
-<div align="center">
-<sub>Pre-revenue · Self-funded · Proving the model by building with it</sub>
-</div>
