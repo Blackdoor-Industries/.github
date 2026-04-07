@@ -17,10 +17,10 @@ Our agents execute on your specific vision, values, standards, and goals with mi
 
 <br>
 
-<p align="left">We empower solo founders, small businesses,<br>
-and enterprises to achieve <strong>more than humanly possible.</strong><br>
-<br>
-We are not just creating technology;<br>
+<p align="center">We empower solo founders, small businesses,<br>
+and enterprises to achieve <strong>more than humanly possible.</strong></p>
+
+<p align="left">We are not just creating technology;<br>
 we are changing how the world works.</p>
 <details open>
 <summary><h1>Organization</h1></summary>
