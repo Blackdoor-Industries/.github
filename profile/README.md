@@ -4,7 +4,7 @@
 
 </div>
 
-<p align="left">We provide the AI workforce<br>that runs your autonomous business.</p>
+<p align="center"><strong>We provide the AI workforce that runs your autonomous business.</strong></p>
 
 <br>
 
@@ -12,15 +12,15 @@
 
 <br>
 
-<p align="left">We provide the executive AI teams — CEOs, CTOs, CMOs —<br>cascading down to project managers, researchers,<br>and specialized field agents, that work together to eliminate<br>the manual overhead of starting or running your business.</p>
+<p align="left">We provide the executive AI teams — CEOs, CTOs, CMOs —<br>cascading down to project managers, researchers, and specialized field agents,<br>that work together to eliminate the manual overhead<br>of starting or running your business.</p>
 
 <br>
 
-<p align="right">Our agents execute on your specific vision, values, standards, and goals<br>with minimal human friction, allowing you to turn brand new ventures<br>into fully automated businesses or migrate existing manual operations<br>to our autonomous platform.</p>
+<p align="left">Our agents execute on your specific vision, values, standards, and goals<br>with minimal human friction, allowing you to turn brand new ventures<br>into fully automated businesses or migrate existing manual operations<br>to our autonomous platform.</p>
 
-<br>
+<br><br>
 
-<p align="left">We are not just creating technology;<br>we are changing how the world works.</p>
+<p align="right"><em>We are not just creating technology;<br>we are changing how the world works.</em></p>
 
 <div align="center">
 
