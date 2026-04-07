@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/Blackdoor-Industries/.github/main/profile/logo.png" alt="Blackdoor Industries" width="336">
+<img src="https://raw.githubusercontent.com/Blackdoor-Industries/.github/main/profile/assets/logo.png" alt="Blackdoor Industries" width="336">
 
 </div>
 
