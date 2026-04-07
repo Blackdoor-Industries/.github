@@ -4,21 +4,23 @@
 
 </div>
 
+<br>
+
 <p align="left">We provide the AI workforce<br>
 <strong>that runs your autonomous business.</strong><br>
 We empower solo founders, small businesses,<br>
-and enterprises to achieve <em>more than humanly possible.</em></p>
+and enterprises to achieve <strong>more than humanly possible.</strong></p>
 
 <br>
 
-<p align="right">We provide the executive AI teams — CEOs, CTOs, CMOs —<br>cascading down to project managers, researchers,<br>and specialized field agents, that work together<br>to eliminate the manual overhead<br>of starting or running your business.</p>
+<p align="right">We provide the executive AI teams — CEOs, CTOs,<br>CMOs — cascading down to project managers,<br>researchers, and specialized field agents,<br>that work together to eliminate<br>the manual overhead of starting<br>or running your business.</p>
 
-<p align="right">Our agents execute on your specific vision, values, standards, and goals<br>with minimal human friction, allowing you to turn brand new ventures<br>into fully automated businesses or migrate existing manual operations<br>to our autonomous platform.</p>
+<p align="right">Our agents execute on your specific vision, values,<br>standards, and goals with minimal human friction,<br>allowing you to turn brand new ventures<br>into fully automated businesses<br>or migrate existing manual operations<br>to our autonomous platform.</p>
 
 <p align="right">We are not just creating technology;<br>we are changing how the world works.</p>
 
 <details open>
-<summary><strong>Organization</strong></summary>
+<summary><h1>Organization</h1></summary>
 
 &nbsp;
 
