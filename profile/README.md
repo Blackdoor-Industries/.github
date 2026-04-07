@@ -76,16 +76,27 @@ flowchart TB
     LIFE --> WEATH
     LIFE --> HEALTH
 
-    classDef holding fill:#050505,stroke:#2f2f2f,stroke-width:1px,color:#f8f8f8
-    classDef atlas fill:#f0f0f0,stroke:#1a1a1a,stroke-width:2.8px,color:#101010,font-weight:700
-    classDef subsidiary fill:#121212,stroke:#3a3a3a,stroke-width:1.5px,color:#e8e8e8
-    classDef product fill:#1f1f1f,stroke:#555555,stroke-width:1px,color:#d9d9d9
-    classDef module fill:#2b2b2b,stroke:#6a6a6a,stroke-width:1px,color:#c9c9c9
+    classDef holding fill:#000000,stroke:#1f1f1f,stroke-width:1px,color:#fafafa
+    classDef atlas fill:#ececec,stroke:#111111,stroke-width:2.8px,color:#0f0f0f,font-weight:700
+    classDef subsidiary fill:#0f0f0f,stroke:#343434,stroke-width:1.5px,color:#f0f0f0
+    classDef product fill:#242424,stroke:#585858,stroke-width:1px,color:#dddddd
+    classDef module fill:#3a3a3a,stroke:#7a7a7a,stroke-width:1px,color:#f1f1f1
 
     linkStyle 0 stroke:#000000,stroke-width:2.6px
     linkStyle 1,2 stroke:#000000,stroke-width:2px
     linkStyle 3,4,5,6,7 stroke:#000000,stroke-width:1.2px
 ```
+
+<details>
+<summary><sub>Diagram legend</sub></summary>
+
+&nbsp;
+
+- **Node tone**: Blackdoor = parent portfolio, Atlas = core product focus, subsidiaries = operating units, products = primary offerings, modules = downstream domain products.
+- **Connector weight**: `==>` marks strategic/corporate flow, `-->` marks product/ecosystem flow.
+- **Descriptor format**: bracketed labels (`[...]`) indicate market/industry positioning.
+
+</details>
 
 &nbsp;
 
