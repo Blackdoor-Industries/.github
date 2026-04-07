@@ -4,15 +4,15 @@
 
 </div>
 
-### We provide the AI workforce that runs your autonomous business.
+### We provide the **AI workforce** that runs your **autonomous business**.
 
-*We empower solo founders, small businesses, and enterprises to achieve more than humanly possible.*
+We empower solo founders, small businesses, and enterprises to achieve more than humanly possible.
 
-We provide the **executive AI teams** — CEOs, CTOs, CMOs — cascading down to project managers, researchers, and specialized field agents, that work together to eliminate the manual overhead of starting or running your business.
+We provide the **executive AI teams** — CEOs, CTOs, CMOs — cascading down to project managers, researchers, and specialized field agents, that work together to eliminate the **manual overhead** of starting or running your business.
 
 Our agents execute on *your* specific vision, values, standards, and goals with minimal human friction, allowing you to turn brand new ventures into **fully automated businesses** or migrate existing manual operations to our autonomous platform.
 
-> ### *We are not just creating technology; we are changing how the world works.*
+> *We are not just creating technology; we are **changing how the world works**.*
 
 <div align="center">
 
@@ -100,7 +100,7 @@ graph LR
 
 &nbsp;
 
-Every repo has a `CLAUDE.md` with agent context. Standardized labels, branch conventions, CI, and PR workflows apply org-wide.
+Agents don't just assist here — they develop, review, and ship. Every repo has a `CLAUDE.md` with agent context, and standardized labels, branch conventions, CI, and PR workflows apply org-wide.
 
 ---
 
