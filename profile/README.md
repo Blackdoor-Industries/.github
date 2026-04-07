@@ -6,8 +6,8 @@
 
 <br>
 
-<p align="left">We provide the AI workforce<br>
-<strong>that runs your autonomous business.</strong></p>
+<h3 align="left">We provide the AI workforce<br>
+<strong>that runs your autonomous business.</strong></h3>
 
 <p align="right">We provide the executive AI teams — CEOs, CTOs, CMOs —<br>
 cascading down to project managers, researchers,<br>
