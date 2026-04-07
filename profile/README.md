@@ -4,7 +4,8 @@
 
 </div>
 
-<p align="left"><strong>We provide the AI workforce<br>that runs your autonomous business.</strong><br>
+<p align="left">We provide the AI workforce<br>
+that runs your autonomous business.<br>
 We empower solo founders, small businesses,<br>
 and enterprises to achieve more than humanly possible.</p>
 
@@ -18,7 +19,7 @@ and enterprises to achieve more than humanly possible.</p>
 
 <br>
 
-<p align="left"><em>We are not just creating technology;<br>we are changing how the world works.</em></p>
+<p align="left">We are not just creating technology;<br>we are changing how the world works.</p>
 
 <div align="center">
 
