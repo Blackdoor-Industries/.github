@@ -61,9 +61,9 @@ flowchart TB
     ATLAS["Atlas<br/>[Cross-Industry AI Workforce]"]:::atlas
     CONST["Constellation<br/>[Entertainment]"]:::subsidiary
     DEMI["Demigod<br/>[Wellness]"]:::subsidiary
-    SHOOT(("Shootout<br/>[Gaming]")):::product
-    VN(("20 Questions<br/>[Adult Entertainment]")):::product
-    LIFE(("LifeOS<br/>[Lifestyle Ecosystem Hub]")):::product
+    SHOOT["Shootout<br/>[Gaming]"]:::product
+    VN["20 Questions<br/>[Adult Entertainment]"]:::product
+    LIFE["LifeOS<br/>[Lifestyle Ecosystem Hub]"]:::product
     WEATH["WeathOS<br/>[Finance]"]:::module
     HEALTH["HealthOS<br/>[Healthcare]"]:::module
 
