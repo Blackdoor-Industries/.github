@@ -48,7 +48,7 @@ we are changing how the world works.</em></p>
   },
   "themeVariables": {
     "fontFamily": "system-ui, -apple-system, Segoe UI, sans-serif",
-    "lineColor": "#6b6b6b",
+    "lineColor": "#000000",
     "textColor": "#eaeaea",
     "primaryColor": "#181818",
     "primaryBorderColor": "#454545",
@@ -57,27 +57,24 @@ we are changing how the world works.</em></p>
   }
 }}%%
 flowchart TB
-    subgraph ORG[" "]
-        direction TB
-        BD["Blackdoor Industries<br/>· holding company"]:::holding
-        ATLAS["Atlas<br/>· AI workforce platform"]:::atlas
-        CONST["Constellation<br/>· game studio"]:::subsidiary
-        DEMI["Demigod<br/>· AI self-help ecosystem"]:::subsidiary
-        SHOOT["Shootout<br/>· competitive action title"]:::product
-        VN["Adult VN<br/>· explicit content title"]:::product
-        LIFE["LifeOS<br/>· personal intelligence app"]:::product
-        WEATH["WeathOS<br/>· financial intelligence app"]:::module
-        HEALTH["HealthOS<br/>· health intelligence app"]:::module
+    BD["Blackdoor Industries<br/>[Holding Company]"]:::holding
+    ATLAS["Atlas<br/>[AI Workforce Platform]"]:::atlas
+    CONST["Constellation<br/>[Game Studio]"]:::subsidiary
+    DEMI["Demigod<br/>[AI Self-Help Ecosystem]"]:::subsidiary
+    SHOOT["Shootout<br/>[Competitive Action Title]"]:::product
+    VN["Adult VN<br/>[Explicit Content Title]"]:::product
+    LIFE["LifeOS<br/>[Personal Intelligence App]"]:::product
+    WEATH["WeathOS<br/>[Financial Intelligence App]"]:::module
+    HEALTH["HealthOS<br/>[Health Intelligence App]"]:::module
 
-        BD ==> ATLAS
-        ATLAS ==> CONST
-        ATLAS ==> DEMI
-        CONST --> SHOOT
-        CONST --> VN
-        DEMI --> LIFE
-        LIFE --> WEATH
-        LIFE --> HEALTH
-    end
+    BD ==> ATLAS
+    ATLAS ==> CONST
+    ATLAS ==> DEMI
+    CONST --> SHOOT
+    CONST --> VN
+    DEMI --> LIFE
+    LIFE --> WEATH
+    LIFE --> HEALTH
 
     classDef holding fill:#0a0a0a,stroke:#4f4f4f,stroke-width:1px,color:#f2f2f2
     classDef atlas fill:#f5f5f5,stroke:#2b2b2b,stroke-width:2.8px,color:#111,font-weight:700
@@ -85,11 +82,9 @@ flowchart TB
     classDef product fill:#1c1c1c,stroke:#4a4a4a,stroke-width:1px,color:#d4d4d4
     classDef module fill:#232323,stroke:#3b3b3b,stroke-width:1px,color:#b8b8b8
 
-    style ORG fill:#ffffff,stroke:#4a4a4a,stroke-width:1.5px,rx:8,ry:8
-
-    linkStyle 0 stroke:#f5f5f5,stroke-width:2.6px
-    linkStyle 1,2 stroke:#d0d0d0,stroke-width:2px
-    linkStyle 3,4,5,6,7 stroke:#6b6b6b,stroke-width:1.2px
+    linkStyle 0 stroke:#000000,stroke-width:2.6px
+    linkStyle 1,2 stroke:#000000,stroke-width:2px
+    linkStyle 3,4,5,6,7 stroke:#000000,stroke-width:1.2px
 ```
 
 &nbsp;
