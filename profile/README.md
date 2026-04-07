@@ -5,9 +5,9 @@
 </div>
 
 <p align="left">We provide the AI workforce<br>
-that runs your autonomous business.<br>
+<strong>that runs your autonomous business.</strong><br>
 We empower solo founders, small businesses,<br>
-and enterprises to achieve more than humanly possible.</p>
+and enterprises to achieve <em>more than humanly possible.</em></p>
 
 <br>
 
@@ -17,9 +17,10 @@ and enterprises to achieve more than humanly possible.</p>
 
 <p align="right">We are not just creating technology;<br>we are changing how the world works.</p>
 
----
+<details open>
+<summary><strong>Organization</strong></summary>
 
-## Organization
+&nbsp;
 
 ```mermaid
 graph TD
@@ -68,6 +69,8 @@ graph TD
 **Demigod** — An AI personal assistant ecosystem anchored by LifeOS, a hub that aggregates life data and surfaces recommendations through conversation. WealthOS, HealthOS, and future modules plug in around it. Currently in planning. Development begins after Constellation ships.
 
 Constellation ships first. Demigod follows. Atlas compounds alongside both.
+
+</details>
 
 ---
 
