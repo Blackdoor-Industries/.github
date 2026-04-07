@@ -18,7 +18,6 @@ and enterprises to achieve <strong>more than humanly possible.</strong></p>
 <p align="right">Our agents execute on your specific vision, values,<br>standards, and goals with minimal human friction,<br>allowing you to turn brand new ventures<br>into fully automated businesses<br>or migrate existing manual operations<br>to our autonomous platform.</p>
 
 <p align="right">We are not just creating technology;<br>we are changing how the world works.</p>
-
 <details open>
 <summary><h1>Organization</h1></summary>
 
