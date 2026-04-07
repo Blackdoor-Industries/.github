@@ -47,7 +47,7 @@ we are changing how the world works.</em></p>
     "rankSpacing": 64
   },
   "themeVariables": {
-    "fontFamily": "system-ui, -apple-system, Segoe UI, sans-serif",
+    "fontFamily": "Helvetica, Arial, sans-serif",
     "lineColor": "#000000",
     "textColor": "#eaeaea",
     "primaryColor": "#181818",
@@ -62,8 +62,8 @@ flowchart TB
     CONST["Constellation<br/>[Entertainment]"]:::subsidiary
     DEMI["Demigod<br/>[AI SaaS]"]:::subsidiary
     SHOOT["Shootout<br/>[Gaming]"]:::product
-    VN["20 Questions<br/>[Adult Entertainment]"]:::product
-    LIFE["LifeOS<br/>[AI Lifestyle Ecosystem]"]:::product
+    VN["20 Questions<br/>[Adult<br/>Entertainment]"]:::product
+    LIFE["LifeOS<br/>[AI Lifestyle<br/>Ecosystem]"]:::product
     WEATH["WeathOS<br/>[Finance]"]:::module
     HEALTH["HealthOS<br/>[Healthcare]"]:::module
 
