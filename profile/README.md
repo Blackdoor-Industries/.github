@@ -1,10 +1,10 @@
 <div align="right">
 
-&nbsp;
-
-<sub><code>Pre-revenue</code> <code>Self-funded</code> <code>2 founders + agents</code></sub>
+<sub><code>Pre-revenue</code> <code>Self-funded</code> <code>2 founders</code> <code>AI agents</code></sub>
 
 </div>
+
+<br>
 
 <div align="center">
 
