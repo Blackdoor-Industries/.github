@@ -7,15 +7,13 @@
 <br>
 
 <p align="left">We provide the AI workforce<br>
-<strong>that runs your autonomous business.</strong><br>
-<br>
-We provide the executive AI teams — CEOs, CTOs, CMOs — cascading down to project managers,<br>
-researchers, and specialized field agents, that work together to eliminate the manual overhead<br>
-of starting or running your business.</p>
+<strong>that runs your autonomous business.</strong></p>
 
 <br>
 
-<p align="right">Our agents execute on your specific vision, values, standards, and goals with minimal human friction, allowing you to turn brand new ventures into fully automated businesses or migrate existing manual operations to our autonomous platform.</p>
+<p align="right">We provide the executive AI teams — CEOs, CTOs, CMOs — cascading down to project managers, researchers, and specialized field agents, that work together to eliminate the manual overhead of starting or running your business.<br>
+<br>
+Our agents execute on your specific vision, values, standards, and goals with minimal human friction, allowing you to turn brand new ventures into fully automated businesses or migrate existing manual operations to our autonomous platform.</p>
 
 <br>
 
