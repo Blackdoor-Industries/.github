@@ -84,20 +84,6 @@ flowchart TB
     linkStyle 0,1,2,3,4,5,6,7 stroke:#000000,stroke-width:1.6px
 ```
 
-<p align="center"><sub><em>Constellation and Demigod are powered by Atlas.</em></sub></p>
-
-<details>
-<summary><sub>Visual color legend</sub></summary>
-
-&nbsp;
-
-![holding](https://img.shields.io/badge/%20-Holding%20Company-000000?style=flat-square&labelColor=000000&color=000000)
-![ai-workforce](https://img.shields.io/badge/%20-AI%20Workforce-F5F5F5?style=flat-square&labelColor=F5F5F5&color=F5F5F5)
-![subsidiaries](https://img.shields.io/badge/%20-Subsidiaries-111111?style=flat-square&labelColor=111111&color=111111)
-![products](https://img.shields.io/badge/%20-Products-3A3A3A?style=flat-square&labelColor=3A3A3A&color=3A3A3A)
-
-</details>
-
 &nbsp;
 
 **Blackdoor Industries** — The holding company. Owns and governs the portfolio — strategy, capital, direction. All operational activity runs through the subsidiaries. We're bringing autonomous AI workforces to every industry: Technology, Entertainment, Wellness, Finance, Healthcare, Legal, Manufacturing, Logistics, and beyond.
