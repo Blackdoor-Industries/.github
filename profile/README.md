@@ -57,19 +57,19 @@ we are changing how the world works.</em></p>
   }
 }}%%
 flowchart TB
-    BD["Blackdoor Industries<br/>[Cross-Industry Portfolio]"]:::holding
-    ATLAS["Atlas<br/>[Cross-Industry AI Workforce]"]:::atlas
-    CONST["Constellation<br/>[Entertainment]"]:::subsidiary
-    DEMI["Demigod&nbsp;<br/>[AI SaaS]"]:::subsidiary
-    SHOOT("Shootout<br/>[Gaming]"):::product
-    VN("20 Questions<br/>[Adult<br/>Gaming]"):::product
-    LIFE("LifeOS<br/>[AI Lifestyle<br/>Ecosystem]"):::ecosystem
-    WEATH("WeathOS<br/>[Finance]"):::module
-    HEALTH("HealthOS<br/>[Healthcare]"):::module
+    BD["Blackdoor Industries<br/>[Holding Company]"]:::holding
+    ATLAS["Atlas<br/>[AI Workforce]"]:::atlas
+    CONST["Constellation<br/>[Subsidiary]"]:::subsidiary
+    DEMI["Demigod<br/>[Subsidiary]"]:::subsidiary
+    SHOOT["Shootout<br/>[Product]"]:::product
+    VN["20 Questions<br/>[Product]"]:::product
+    LIFE["LifeOS<br/>[Product]"]:::product
+    WEATH["WealthOS<br/>[Product]"]:::product
+    HEALTH["HealthOS<br/>[Product]"]:::product
 
-    BD ==> ATLAS
-    ATLAS ==> CONST
-    ATLAS ==> DEMI
+    BD --> ATLAS
+    BD --> CONST
+    BD --> DEMI
     CONST --> SHOOT
     CONST --> VN
     DEMI --> LIFE
@@ -79,14 +79,12 @@ flowchart TB
     classDef holding fill:#000000,stroke:#2a2a2a,stroke-width:1px,color:#fafafa
     classDef atlas fill:#f5f5f5,stroke:#111111,stroke-width:2.8px,color:#0f0f0f,font-weight:700
     classDef subsidiary fill:#111111,stroke:#3f3f3f,stroke-width:1.5px,color:#f0f0f0
-    classDef ecosystem fill:#2a2a2a,stroke:#707070,stroke-width:1.2px,color:#f2f2f2
     classDef product fill:#3a3a3a,stroke:#8d8d8d,stroke-width:1px,color:#efefef
-    classDef module fill:#565656,stroke:#b0b0b0,stroke-width:1px,color:#ffffff
 
-    linkStyle 0 stroke:#000000,stroke-width:2.6px
-    linkStyle 1,2 stroke:#000000,stroke-width:2px
-    linkStyle 3,4,5,6,7 stroke:#000000,stroke-width:1.2px
+    linkStyle 0,1,2,3,4,5,6,7 stroke:#000000,stroke-width:1.6px
 ```
+
+<p align="center"><sub><em>Constellation and Demigod are powered by Atlas.</em></sub></p>
 
 <details>
 <summary><sub>Visual color legend</sub></summary>
@@ -96,9 +94,7 @@ flowchart TB
 ![holding](https://img.shields.io/badge/%20-Holding%20Company-000000?style=flat-square&labelColor=000000&color=000000)
 ![ai-workforce](https://img.shields.io/badge/%20-AI%20Workforce-F5F5F5?style=flat-square&labelColor=F5F5F5&color=F5F5F5)
 ![subsidiaries](https://img.shields.io/badge/%20-Subsidiaries-111111?style=flat-square&labelColor=111111&color=111111)
-![ecosystem](https://img.shields.io/badge/%20-Ecosystem%20Hub-2A2A2A?style=flat-square&labelColor=2A2A2A&color=2A2A2A)
 ![products](https://img.shields.io/badge/%20-Products-3A3A3A?style=flat-square&labelColor=3A3A3A&color=3A3A3A)
-![domain-apps](https://img.shields.io/badge/%20-Domain%20Apps-565656?style=flat-square&labelColor=565656&color=565656)
 
 </details>
 
@@ -106,7 +102,7 @@ flowchart TB
 
 **Blackdoor Industries** — The holding company. Owns and governs the portfolio — strategy, capital, direction. All operational activity runs through the subsidiaries. We're bringing autonomous AI workforces to every industry: Technology, Entertainment, Wellness, Finance, Healthcare, Legal, Manufacturing, Logistics, and beyond.
 
-**Atlas** — Blackdoor's core IP and the AI Workforce. Atlas is what Blackdoor sells: executive AI teams — CEOs, CTOs, CMOs — cascading down to project managers, researchers, and field agents that run complete business operations. Every other subsidiary is built on Atlas. The agent conventions, CI workflows, playbooks, and protocols that codify how autonomous teams operate live here.
+**Atlas** — Blackdoor's core IP and the AI Workforce. Atlas is what Blackdoor sells: executive AI teams — CEOs, CTOs, CMOs — cascading down to project managers, researchers, and field agents that run complete business operations. Constellation and Demigod are built on Atlas. The agent conventions, CI workflows, playbooks, and protocols that codify how autonomous teams operate live here.
 
 **Constellation** — A game studio running on the Atlas workforce. Produces titles across genres with AI agents handling production pipelines.
 
