@@ -61,11 +61,11 @@ flowchart TB
     ATLAS["Atlas<br/>[Cross-Industry AI Workforce]"]:::atlas
     CONST["Constellation<br/>[Entertainment]"]:::subsidiary
     DEMI["Demigod&nbsp;<br/>[AI SaaS]"]:::subsidiary
-    SHOOT("Shootout<br/>[Gaming]"):::product
-    VN("20 Questions<br/>[Adult<br/>Entertainment]"):::product
-    LIFE("LifeOS<br/>[AI Lifestyle<br/>Ecosystem]"):::ecosystem
-    WEATH("WeathOS<br/>[Finance]"):::module
-    HEALTH("HealthOS<br/>[Healthcare]"):::module
+    SHOOT("Shootout&nbsp;&nbsp;&nbsp;<br/>[Gaming&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br/>&nbsp;]"):::product
+    VN("20 Questions<br/>[Adult&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br/>Entertainment]"):::product
+    LIFE("LifeOS&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br/>[AI Lifestyle&nbsp;<br/>Ecosystem]"):::ecosystem
+    WEATH("WeathOS&nbsp;&nbsp;&nbsp;&nbsp;<br/>[Finance&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br/>&nbsp;]"):::module
+    HEALTH("HealthOS&nbsp;&nbsp;&nbsp;<br/>[Healthcare&nbsp;&nbsp;&nbsp;<br/>&nbsp;]"):::module
 
     BD ==> ATLAS
     ATLAS ==> CONST
