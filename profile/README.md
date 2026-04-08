@@ -42,7 +42,7 @@ we are changing how the world works.</em></p>
 %%{init: {
   "theme": "base",
   "flowchart": {
-    "curve": "linear",
+    "curve": "basis",
     "nodeSpacing": 40,
     "rankSpacing": 64
   },
