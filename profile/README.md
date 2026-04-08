@@ -76,12 +76,12 @@ flowchart TB
     LIFE --> WEATH
     LIFE --> HEALTH
 
-    classDef holding fill:#050505,stroke:#202020,stroke-width:1px,color:#fafafa
-    classDef atlas fill:#f1f1f1,stroke:#111111,stroke-width:2.8px,color:#0f0f0f,font-weight:700
-    classDef subsidiary fill:#101010,stroke:#3a3a3a,stroke-width:1.5px,color:#f0f0f0
-    classDef ecosystem fill:#1a1a1a,stroke:#5f5f5f,stroke-width:1.2px,color:#f2f2f2
-    classDef product fill:#262626,stroke:#6a6a6a,stroke-width:1px,color:#e2e2e2
-    classDef module fill:#3c3c3c,stroke:#8c8c8c,stroke-width:1px,color:#f4f4f4
+    classDef holding fill:#000000,stroke:#2a2a2a,stroke-width:1px,color:#fafafa
+    classDef atlas fill:#f5f5f5,stroke:#111111,stroke-width:2.8px,color:#0f0f0f,font-weight:700
+    classDef subsidiary fill:#111111,stroke:#3f3f3f,stroke-width:1.5px,color:#f0f0f0
+    classDef ecosystem fill:#2a2a2a,stroke:#707070,stroke-width:1.2px,color:#f2f2f2
+    classDef product fill:#3a3a3a,stroke:#8d8d8d,stroke-width:1px,color:#efefef
+    classDef module fill:#565656,stroke:#b0b0b0,stroke-width:1px,color:#ffffff
 
     linkStyle 0 stroke:#000000,stroke-width:2.6px
     linkStyle 1,2 stroke:#000000,stroke-width:2px
@@ -93,14 +93,12 @@ flowchart TB
 
 &nbsp;
 
-| Object type | Fill swatch | Stroke swatch | Nodes |
-|:--|:--:|:--:|:--|
-| Holding company | ![fill #050505](https://img.shields.io/badge/%20-%20-050505?style=flat-square&labelColor=050505&color=050505) `#050505` | ![stroke #202020](https://img.shields.io/badge/%20-%20-202020?style=flat-square&labelColor=202020&color=202020) `#202020` | Blackdoor Industries |
-| AI workforce | ![fill #F1F1F1](https://img.shields.io/badge/%20-%20-F1F1F1?style=flat-square&labelColor=F1F1F1&color=F1F1F1) `#F1F1F1` | ![stroke #111111](https://img.shields.io/badge/%20-%20-111111?style=flat-square&labelColor=111111&color=111111) `#111111` | Atlas |
-| Subsidiaries | ![fill #101010](https://img.shields.io/badge/%20-%20-101010?style=flat-square&labelColor=101010&color=101010) `#101010` | ![stroke #3A3A3A](https://img.shields.io/badge/%20-%20-3A3A3A?style=flat-square&labelColor=3A3A3A&color=3A3A3A) `#3A3A3A` | Constellation, Demigod |
-| Ecosystem hub | ![fill #1A1A1A](https://img.shields.io/badge/%20-%20-1A1A1A?style=flat-square&labelColor=1A1A1A&color=1A1A1A) `#1A1A1A` | ![stroke #5F5F5F](https://img.shields.io/badge/%20-%20-5F5F5F?style=flat-square&labelColor=5F5F5F&color=5F5F5F) `#5F5F5F` | LifeOS |
-| Products | ![fill #262626](https://img.shields.io/badge/%20-%20-262626?style=flat-square&labelColor=262626&color=262626) `#262626` | ![stroke #6A6A6A](https://img.shields.io/badge/%20-%20-6A6A6A?style=flat-square&labelColor=6A6A6A&color=6A6A6A) `#6A6A6A` | Shootout, 20 Questions |
-| Domain apps | ![fill #3C3C3C](https://img.shields.io/badge/%20-%20-3C3C3C?style=flat-square&labelColor=3C3C3C&color=3C3C3C) `#3C3C3C` | ![stroke #8C8C8C](https://img.shields.io/badge/%20-%20-8C8C8C?style=flat-square&labelColor=8C8C8C&color=8C8C8C) `#8C8C8C` | WeathOS, HealthOS |
+![holding](https://img.shields.io/badge/%20-Holding%20Company-000000?style=flat-square&labelColor=000000&color=000000)
+![ai-workforce](https://img.shields.io/badge/%20-AI%20Workforce-F5F5F5?style=flat-square&labelColor=F5F5F5&color=F5F5F5)
+![subsidiaries](https://img.shields.io/badge/%20-Subsidiaries-111111?style=flat-square&labelColor=111111&color=111111)
+![ecosystem](https://img.shields.io/badge/%20-Ecosystem%20Hub-2A2A2A?style=flat-square&labelColor=2A2A2A&color=2A2A2A)
+![products](https://img.shields.io/badge/%20-Products-3A3A3A?style=flat-square&labelColor=3A3A3A&color=3A3A3A)
+![domain-apps](https://img.shields.io/badge/%20-Domain%20Apps-565656?style=flat-square&labelColor=565656&color=565656)
 
 </details>
 
