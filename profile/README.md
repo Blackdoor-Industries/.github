@@ -62,7 +62,7 @@ flowchart TB
     CONST["Constellation<br/>[Entertainment]"]:::subsidiary
     DEMI["Demigod&nbsp;<br/>[AI SaaS]"]:::subsidiary
     SHOOT("Shootout<br/>[Gaming]"):::product
-    VN("20 Questions<br/>[Adult<br/>Entertainment]"):::product
+    VN("20 Questions<br/>[Adult<br/>Gaming]"):::product
     LIFE("LifeOS<br/>[AI Lifestyle<br/>Ecosystem]"):::ecosystem
     WEATH("WeathOS<br/>[Finance]"):::module
     HEALTH("HealthOS<br/>[Healthcare]"):::module
