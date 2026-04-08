@@ -59,8 +59,8 @@ we are changing how the world works.</em></p>
 flowchart TB
     BD["Blackdoor Industries<br/>[Cross-Industry Portfolio]"]:::holding
     ATLAS["Atlas<br/>[Cross-Industry AI Workforce]"]:::atlas
-    CONST["Constellation<br/>[Entertainment]"]:::subsidiary
-    DEMI["Demigod&nbsp;<br/>[AI SaaS]"]:::subsidiary
+    CONST{"Constellation<br/>[Entertainment]"}:::subsidiary
+    DEMI{"Demigod&nbsp;<br/>[AI SaaS]"}:::subsidiary
     SHOOT("Shootout<br/>[Gaming]"):::product
     VN("20 Questions<br/>[Adult<br/>Gaming]"):::product
     LIFE("LifeOS<br/>[AI Lifestyle<br/>Ecosystem]"):::ecosystem
