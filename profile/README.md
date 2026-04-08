@@ -1,4 +1,4 @@
-<div align="right">
+<div align="left">
 <sub><em>Pre-revenue&nbsp;&middot;&nbsp;Self-funded&nbsp;&middot;&nbsp;2 founders&nbsp;&middot;&nbsp;AI agents</em></sub>
 </div>
 
@@ -17,7 +17,7 @@
 <h3 align="left">We provide the AI workforce<br>
 that runs your autonomous business.</h3>
 
-<p align="right">We provide the executive AI teams — CEOs, CTOs, CMOs —<br>
+<p align="left">We provide the executive AI teams — CEOs, CTOs, CMOs —<br>
 cascading down to project managers, researchers,<br>
 and specialized field agents, that work together to eliminate<br>
 the manual overhead of starting or running your business.<br>
