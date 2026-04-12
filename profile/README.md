@@ -9,7 +9,7 @@
 
 <br>
 
-<h3 align="left">Building a portfolio of profitable,<br>
+<h3 align="left">A portfolio of profitable,<br>
 agent-operated companies.</h3>
 
 <p align="right">Blackdoor is an early-stage company-building system:<br>
