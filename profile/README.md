@@ -1,8 +1,3 @@
-<div align="right">
-<sub><em>Early-stage&nbsp;&middot;&nbsp;Self-funded&nbsp;&middot;&nbsp;2 founders&nbsp;&middot;&nbsp;AI workforce</em></sub>
-</div>
-
-<br>
 <br>
 <br>
 
