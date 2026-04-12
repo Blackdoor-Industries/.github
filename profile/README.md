@@ -1,5 +1,5 @@
 <div align="right">
-<sub><em>Pre-revenue&nbsp;&middot;&nbsp;Self-funded&nbsp;&middot;&nbsp;2 founders&nbsp;&middot;&nbsp;AI agents</em></sub>
+<sub><em>Early-stage&nbsp;&middot;&nbsp;Self-funded&nbsp;&middot;&nbsp;2 founders&nbsp;&middot;&nbsp;AI workforce</em></sub>
 </div>
 
 <br>
@@ -14,24 +14,24 @@
 
 <br>
 
-<h3 align="left">We provide the AI workforce<br>
-that runs your autonomous business.</h3>
+<h3 align="left">Building toward profitable,<br>
+autonomously operated companies.</h3>
 
-<p align="right">We provide the executive AI teams — CEOs, CTOs, CMOs —<br>
-cascading down to project managers, researchers,<br>
-and specialized field agents, that work together to eliminate<br>
-the manual overhead of starting or running your business.<br>
+<p align="right">Blackdoor is an early-stage company-building system:<br>
+parent doctrine, focused venture brands,<br>
+and Atlas — the internal AI workforce and operating system<br>
+designed to help a small team create more than it could run manually.<br>
 <br>
-Our agents execute on your specific vision, values, standards, and goals<br>
-with minimal human friction, allowing you to turn brand new ventures<br>
-into fully automated businesses or migrate existing manual operations<br>
-to our autonomous platform.</p>
+The goal is not to look busy.<br>
+The goal is to build real subsidiaries that can become profitable,<br>
+agent-operated, independently understandable,<br>
+and valuable enough to hold, partner, or sell.</p>
 
-<h4 align="left">We empower solo founders, small businesses,<br>
-and enterprises to achieve more than humanly possible.</h4>
+<h4 align="left">Atlas is what Blackdoor uses to build.<br>
+The subsidiaries are where the market-facing businesses live.</h4>
 
 <p align="left"><em>We are not just creating technology;<br>
-we are changing how the world works.</em></p>
+we are designing the operating model for what comes next.</em></p>
 
 <details open>
 <summary><h2>Organization</h2></summary>
@@ -57,12 +57,12 @@ we are changing how the world works.</em></p>
   }
 }}%%
 flowchart TB
-    BD["Blackdoor Industries<br/>[Holding Company]"]:::holding
-    ATLAS["Atlas<br/>[AI Workforce]"]:::atlas
+    BD["Blackdoor Industries<br/>[Parent Company]"]:::holding
+    ATLAS["Atlas<br/>[AI Workforce + OS]"]:::atlas
     CONST["Constellation<br/>[Subsidiary]"]:::subsidiary
     DEMI["Demigod<br/>[Subsidiary]"]:::subsidiary
     SHOOT["Shootout<br/>[Product]"]:::product
-    VN["20 Questions<br/>[Product]"]:::product
+    VN["Flagship Narrative Title<br/>[Product]"]:::product
     LIFE["LifeOS<br/>[Product]"]:::product
     WEATH["WealthOS<br/>[Product]"]:::product
     HEALTH["HealthOS<br/>[Product]"]:::product
@@ -86,16 +86,16 @@ flowchart TB
 
 &nbsp;
 
-**Blackdoor Industries** — The holding company. Owns and governs the portfolio — strategy, capital, direction. All operational activity runs through the subsidiaries. We're bringing autonomous AI workforces to every industry: Technology, Entertainment, Wellness, Finance, Healthcare, Legal, Manufacturing, Logistics, and beyond.
+**Blackdoor Industries** — The parent company and company-building system. Owns group strategy, portfolio logic, capital allocation, and the doctrine that keeps the subsidiaries coherent. Blackdoor is early-stage by revenue, but serious by architecture: the group is being built around profitable, autonomously operated companies rather than disconnected experiments.
 
-**Atlas** — Blackdoor's core IP and the AI Workforce. Atlas is what Blackdoor sells: executive AI teams — CEOs, CTOs, CMOs — cascading down to project managers, researchers, and field agents that run complete business operations. Constellation and Demigod are built on Atlas. The agent conventions, CI workflows, playbooks, and protocols that codify how autonomous teams operate live here.
+**Atlas** — Blackdoor's AI workforce and operating system. Atlas coordinates agents, tools, workflows, playbooks, and integrations across the group. It is internal-first today: what Blackdoor uses to build and operate. External commercialization may come later if the system matures enough to sell without weakening the portfolio.
 
-**Constellation** — A game studio running on the Atlas workforce. Produces titles across genres with AI agents handling production pipelines.
+**Constellation** — An entertainment venture brand using Atlas for leverage behind the scenes. Produces interactive titles with a focus on narrative, product taste, and reusable studio capability.
 
 - *Shootout* — Competitive multiplayer action title. Pre-production.
-- *20 Questions* — Explicit content title. TypeScript, React 19, Three.js. Working codebase, 3D scrapbook UI, functional content pipeline. Not yet deployed.
+- *Flagship narrative title* — Interactive narrative product. TypeScript, React 19, Three.js. Working codebase, 3D scrapbook UI, functional content pipeline. Not yet deployed.
 
-**Demigod** — An AI self-help ecosystem. LifeOS serves as the ecosystem hub — aggregating life data and surfacing actionable guidance through conversation. Companion apps integrate natively, segmenting specific domains and feeding enriched data back into the core.
+**Demigod** — A life-intelligence venture. LifeOS is the hub product for personal systems, guidance, and future domain-specific companion products.
 
 - *LifeOS* — Ecosystem hub. Aggregates data across life domains and surfaces recommendations through conversation.
   - *WealthOS* — Standalone financial intelligence app. Natively integrates with LifeOS, segments financial tools, and returns insights to the hub.
@@ -135,33 +135,20 @@ flowchart TD
 
 &nbsp;
 
-Every cycle begins with an open question — a problem worth solving or an opportunity worth seizing. We explore the full universe of possibilities before committing to a path, letting research, data, and honest analysis shape what gets built. Agents execute the technical heavy lifting across development and validation; humans bring judgment, craft, and taste. The goal is never "done" — it's exceptional. We blend the precision of modern AI infrastructure with the ambition of builders who believe technology can transform every industry on earth.
+Every cycle begins with an open question — a problem worth solving or an opportunity worth testing. We explore before committing, letting research, data, and honest analysis shape what gets built. Agents handle more of the technical and operational heavy lifting over time; humans bring judgment, craft, taste, and final accountability. The goal is not automation theater. The goal is a repeatable operating model for building valuable companies with a small team.
 
 </details>
 
 ---
 
-## Team
+## Founding Team
 
 <br>
 
-<div align="center">
-<table>
-<tr>
-<td align="center">
-<a href="https://github.com/ryderderder"><img src="https://github.com/ryderderder.png?size=96" width="72" alt="Ryder Wolf"><br><strong>Ryder Wolf</strong></a><br>
-<sub>Founder</sub><br>
-<sub>Research · Strategy · Systems · UX</sub>
-</td>
-<td width="80"></td>
-<td align="center">
-<a href="https://github.com/PIERRE_USERNAME"><img src="https://github.com/PIERRE_USERNAME.png?size=96" width="72" alt="Pierre"><br><strong>Pierre</strong></a><br>
-<sub>Co-founder</sub><br>
-<sub>Implementation · Experimentation · Deployment</sub>
-</td>
-</tr>
-</table>
-</div>
+| Founder | Focus |
+|:---|:---|
+| [Ryder Wolf](https://github.com/ryderderder) | Strategy, systems architecture, AI workflows, documentation systems, product direction, UX |
+| Pierre | Implementation, experimentation, deployment, and operational follow-through |
 
 <br>
 
@@ -177,11 +164,11 @@ Every cycle begins with an open question — a problem worth solving or an oppor
 | Blackdoor | [`blackdoor-docs`](https://github.com/Blackdoor-Industries/blackdoor-docs) | Corporate strategy, governance, and operations | ![Operational](https://img.shields.io/badge/Operational-0e8a16?style=flat-square) |
 | Atlas | [`atlas-docs`](https://github.com/Blackdoor-Industries/atlas-docs) | Agent infrastructure, playbooks, integration catalog | ![Operational](https://img.shields.io/badge/Operational-0e8a16?style=flat-square) |
 | Constellation | [`constellation-docs`](https://github.com/Blackdoor-Industries/constellation-docs) | Studio strategy and business planning | ![Researching](https://img.shields.io/badge/Researching-555?style=flat-square) |
-| Constellation | [`constellation-vngame-app`](https://github.com/Blackdoor-Industries/constellation-vngame-app) | VN Game — TypeScript, React 19, Three.js | ![Developing](https://img.shields.io/badge/Developing-333?style=flat-square) |
-| Constellation | [`constellation-vngame-docs`](https://github.com/Blackdoor-Industries/constellation-vngame-docs) | VN Game specs, design docs, and operations | ![Developing](https://img.shields.io/badge/Developing-333?style=flat-square) |
-| Constellation | [`constellation-vngame-site`](https://github.com/Blackdoor-Industries/constellation-vngame-site) | VN Game marketing website | ![Scaffolded](https://img.shields.io/badge/Scaffolded-888?style=flat-square) |
+| Constellation | [`constellation-vngame-app`](https://github.com/Blackdoor-Industries/constellation-vngame-app) | Flagship narrative title — TypeScript, React 19, Three.js | ![Developing](https://img.shields.io/badge/Developing-333?style=flat-square) |
+| Constellation | [`constellation-vngame-docs`](https://github.com/Blackdoor-Industries/constellation-vngame-docs) | Flagship narrative title specs, design docs, and operations | ![Developing](https://img.shields.io/badge/Developing-333?style=flat-square) |
+| Constellation | [`constellation-vngame-site`](https://github.com/Blackdoor-Industries/constellation-vngame-site) | Flagship narrative title marketing website | ![Scaffolded](https://img.shields.io/badge/Scaffolded-888?style=flat-square) |
 | Constellation | [`constellation-shootout-docs`](https://github.com/Blackdoor-Industries/constellation-shootout-docs) | Shootout — pre-production concepts | ![Scaffolded](https://img.shields.io/badge/Scaffolded-888?style=flat-square) |
-| Demigod | [`demigod-docs`](https://github.com/Blackdoor-Industries/demigod-docs) | Ecosystem strategy and business planning | ![Researching](https://img.shields.io/badge/Researching-555?style=flat-square) |
+| Demigod | [`demigod-docs`](https://github.com/Blackdoor-Industries/demigod-docs) | Life-intelligence strategy and business planning | ![Researching](https://img.shields.io/badge/Researching-555?style=flat-square) |
 | Demigod | [`demigod-lifeos-app`](https://github.com/Blackdoor-Industries/demigod-lifeos-app) | LifeOS application code | ![Scaffolded](https://img.shields.io/badge/Scaffolded-888?style=flat-square) |
 | Demigod | [`demigod-lifeos-docs`](https://github.com/Blackdoor-Industries/demigod-lifeos-docs) | LifeOS product specs and design | ![Researching](https://img.shields.io/badge/Researching-555?style=flat-square) |
 | Demigod | [`demigod-lifeos-site`](https://github.com/Blackdoor-Industries/demigod-lifeos-site) | LifeOS marketing website | ![Scaffolded](https://img.shields.io/badge/Scaffolded-888?style=flat-square) |
@@ -217,7 +204,7 @@ Every repository contains a `CLAUDE.md` at its root with agent-specific context,
 Org-wide standards:
 
 - **Labels**: `type:` · `priority:` · `status:` · `subsidiary:` — 18 labels across 4 taxonomies, applied consistently
-- **Branches**: `type/short-description` — all work on feature branches, no direct pushes to `main`
+- **Branches**: `type/short-description` by default; direct `main` updates only by explicit founder instruction
 - **CI**: Reusable workflows from `.github` — markdownlint on all docs repos, HTML validation, auto-assign on issues and PRs
 - **PR workflow**: Branch → implement → CI passes → human review → merge
 

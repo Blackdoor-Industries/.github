@@ -9,3 +9,9 @@ MD060: false
 
 # Bare URLs — disabled (email addresses and simple URLs are fine bare)
 MD034: false
+
+# Inline HTML — allowed for the editorial GitHub org profile layout
+MD033: false
+
+# First line H1 — disabled because the org profile opens with status metadata and logo markup
+MD041: false
