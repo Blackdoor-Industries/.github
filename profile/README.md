@@ -54,6 +54,7 @@ we are designing the operating model for what comes next.</em></p>
 flowchart TB
     BD["Blackdoor Industries<br/>[Parent Company]"]:::holding
     ATLAS["Atlas<br/>[AI Workforce + OS]"]:::atlas
+    BEACON["Beacon<br/>[Opportunity Intelligence]"]:::beacon
     CONST["Constellation<br/>[Subsidiary]"]:::subsidiary
     DEMI["Demigod<br/>[Subsidiary]"]:::subsidiary
     SHOOT["Shootout<br/>[Product]"]:::product
@@ -63,6 +64,7 @@ flowchart TB
     HEALTH["HealthOS<br/>[Product]"]:::product
 
     BD --> ATLAS
+    BD --> BEACON
     BD --> CONST
     BD --> DEMI
     CONST --> SHOOT
@@ -73,10 +75,11 @@ flowchart TB
 
     classDef holding fill:#000000,stroke:#2a2a2a,stroke-width:1px,color:#fafafa
     classDef atlas fill:#f5f5f5,stroke:#111111,stroke-width:2.8px,color:#0f0f0f,font-weight:700
+    classDef beacon fill:#e8e8e8,stroke:#111111,stroke-width:1.8px,color:#0f0f0f
     classDef subsidiary fill:#111111,stroke:#3f3f3f,stroke-width:1.5px,color:#f0f0f0
     classDef product fill:#3a3a3a,stroke:#8d8d8d,stroke-width:1px,color:#efefef
 
-    linkStyle 0,1,2,3,4,5,6,7 stroke:#000000,stroke-width:1.6px
+    linkStyle 0,1,2,3,4,5,6,7,8 stroke:#000000,stroke-width:1.6px
 ```
 
 &nbsp;
@@ -84,6 +87,8 @@ flowchart TB
 **Blackdoor Industries** — The parent company and company-building system. Owns group strategy, portfolio logic, capital allocation, and the doctrine that keeps the subsidiaries coherent. Blackdoor is early-stage by revenue, but serious by architecture: the group is being built around profitable, autonomously operated companies rather than disconnected experiments.
 
 **Atlas** — Blackdoor's AI workforce and operating system. Atlas coordinates agents, tools, workflows, playbooks, and integrations across the group. It is internal-first today: what Blackdoor uses to build and operate. External commercialization may come later if the system matures enough to sell without weakening the portfolio.
+
+**Beacon** — Blackdoor's planned opportunity-intelligence arm. Beacon helps the group decide what to study, build, partner with, acquire, or fund. It starts as research and prioritization, not as a venture capital firm.
 
 **Constellation** — An entertainment venture brand using Atlas for leverage behind the scenes. Produces interactive titles with a focus on narrative, product taste, and reusable studio capability.
 
@@ -96,7 +101,7 @@ flowchart TB
   - *WealthOS* — Standalone financial intelligence app. Natively integrates with LifeOS, segments financial tools, and returns insights to the hub.
   - *HealthOS* — Standalone health intelligence app. Same integration model — feeds enriched health data back to LifeOS.
 
-Constellation ships first. Demigod follows. Atlas compounds alongside both.
+Constellation ships first. Demigod follows. Beacon scouts future opportunity. Atlas compounds alongside the portfolio.
 
 </details>
 
