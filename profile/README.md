@@ -14,8 +14,8 @@
 
 <br>
 
-<h3 align="left">Building toward profitable,<br>
-autonomously operated companies.</h3>
+<h3 align="left">Building a portfolio of profitable,<br>
+agent-operated companies.</h3>
 
 <p align="right">Blackdoor is an early-stage company-building system:<br>
 parent doctrine, focused venture brands,<br>
