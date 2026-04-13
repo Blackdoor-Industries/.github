@@ -17,7 +17,7 @@ entertainment, lifestyle, robotics, and artificial intelligence.</p>
 
 <p align="left">Blackdoor developed Atlas as the portfolio's operating system.</p>
 
-<p align="right">Atlas equips each venture with an AI-native operating model:<br>
+<p align="right">Atlas equips each venture with:<br>
 agents, tools, data, policies, SOPs, reporting cadences,<br>
 review systems, and improvement loops built to support<br>
 repeatable execution, governance, and scale.</p>
