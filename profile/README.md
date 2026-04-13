@@ -9,24 +9,21 @@
 
 <br>
 
-<h3 align="left">A portfolio of profitable,<br>
-agent-operated companies.</h3>
+<h3 align="left">A portfolio of commercial assets<br>
+powered by an AI workforce.</h3>
 
-<p align="right">Blackdoor is an early-stage company-building system:<br>
-parent doctrine, focused venture brands,<br>
-and Atlas — the internal AI workforce and operating system<br>
-designed to help a small team create more than it could run manually.<br>
-<br>
-The goal is not to look busy.<br>
-The goal is to build real subsidiaries that can become profitable,<br>
-agent-operated, independently understandable,<br>
-and valuable enough to hold, partner, or sell.</p>
+<p align="right">Blackdoor owns and operates ventures across<br>
+entertainment, lifestyle, robotics, and artificial intelligence.</p>
 
-<h4 align="left">Atlas is what Blackdoor uses to build.<br>
-The subsidiaries are where the market-facing businesses live.</h4>
+<p align="left">Blackdoor developed Atlas as the portfolio's operating system.</p>
 
-<p align="left"><em>We are not just creating technology;<br>
-we are designing the operating model for what comes next.</em></p>
+<p align="right">Atlas equips each venture with an AI-native operating model:<br>
+agents, tools, data, policies, SOPs, reporting cadences,<br>
+review systems, and improvement loops built to support<br>
+repeatable execution, governance, and scale.</p>
+
+<p align="left"><em>The mission is to prove that companies no longer need to be limited<br>
+by the amount of human labor they can hire, manage, or afford.</em></p>
 
 <details open>
 <summary><h2>Organization</h2></summary>
