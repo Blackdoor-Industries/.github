@@ -50,8 +50,15 @@ by the amount of human labor they can hire, manage, or afford.</em></p>
 }}%%
 flowchart TB
     BD["Blackdoor Industries<br/>Commercial Asset Portfolio"]:::holding
-    ATLAS["Atlas<br/>AI Workforce + Operating System<br/>powers execution"]:::system
-    BEACON["Beacon<br/>Reconnaissance + Performance Analysis<br/>powers intelligence"]:::system
+
+    subgraph INTERNAL["Internal Systems"]
+        direction LR
+        ATLAS["Atlas<br/>AI&nbsp;Workforce&nbsp;+&nbsp;Operating&nbsp;System<br/>powers execution"]:::system
+        PLUS["<b>+</b>"]:::plus
+        BEACON["Beacon<br/>Reconnaissance&nbsp;+&nbsp;Performance&nbsp;Analysis<br/>powers intelligence"]:::system
+        ATLAS ~~~ PLUS ~~~ BEACON
+    end
+
     PORT["Portfolio by Industry"]:::layer
     ENT["Entertainment<br/>Industry"]:::industry
     LIFEIND["Lifestyle<br/>Industry"]:::industry
@@ -67,12 +74,9 @@ flowchart TB
     HUMANOID["Humanoid<br/>Robotics Product"]:::product
     CARTESIAN["Cartesian<br/>Robotics Product"]:::product
 
-    BD --> ATLAS
-    BD --> BEACON
-    ATLAS --- BEACON
-    ATLAS --> PORT
-    BEACON --> PORT
-    PORT -. "portfolio reality" .-> BEACON
+    BD --> INTERNAL
+    INTERNAL --> PORT
+    PORT -. "portfolio reality" .-> INTERNAL
     PORT --> ENT
     PORT --> LIFEIND
     PORT --> ROBOTICS
@@ -89,12 +93,15 @@ flowchart TB
 
     classDef holding fill:#000000,stroke:#2a2a2a,stroke-width:1px,color:#fafafa
     classDef system fill:#f5f5f5,stroke:#111111,stroke-width:2px,color:#0f0f0f
+    classDef plus fill:#ffffff,stroke:#ffffff,color:#111111,font-weight:700,font-size:24px
     classDef layer fill:#ffffff,stroke:#cfcfcf,stroke-width:1px,color:#111111
     classDef industry fill:#111111,stroke:#3f3f3f,stroke-width:1.5px,color:#f0f0f0
     classDef brand fill:#f5f5f5,stroke:#111111,stroke-width:1.5px,color:#0f0f0f
     classDef product fill:#3a3a3a,stroke:#8d8d8d,stroke-width:1px,color:#efefef
 
+    style INTERNAL fill:#ffffff,stroke:#cfcfcf,stroke-width:1px,color:#333333
     linkStyle default stroke:#000000,stroke-width:1.4px
+    linkStyle 0,1 stroke:#ffffff,stroke-width:0px
 ```
 
 &nbsp;
