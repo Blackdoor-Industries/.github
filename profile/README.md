@@ -1,6 +1,3 @@
-<br>
-<br>
-
 <div align="center">
 
 <img src="https://raw.githubusercontent.com/Blackdoor-Industries/.github/main/profile/assets/logo.png" alt="Blackdoor Industries" width="400">
@@ -76,7 +73,6 @@ flowchart TB
 
     BD --> INTERNAL
     INTERNAL --> PORT
-    PORT -. "portfolio reality" .-> INTERNAL
     PORT --> ENT
     PORT --> LIFEIND
     PORT --> ROBOTICS
@@ -112,21 +108,11 @@ flowchart TB
 
 **Beacon** — Blackdoor's reconnaissance and performance-analysis function. Beacon studies external opportunities, internal performance, process quality, and portfolio reality so the group can decide what to study, build, partner with, acquire, improve, or stop.
 
-**Constellation** — An entertainment brand and video game studio using Atlas for leverage behind the scenes. Produces interactive titles with a focus on narrative, product taste, and reusable studio capability.
+**Constellation** — An entertainment brand and video game studio using Atlas for leverage behind the scenes. Produces interactive titles with a focus on narrative, product taste, and reusable studio capability. *Kept Close* is an adult story collection built on TypeScript, React 19, and Three.js with a working 3D scrapbook UI and content pipeline, not yet deployed. *Shootout* is a competitive multiplayer action title in pre-production.
 
-- *Shootout* — Competitive multiplayer action title. Pre-production.
-- *Kept Close* — Adult story collection for curious men, where closeness becomes temptation. TypeScript, React 19, Three.js. Working codebase, 3D scrapbook UI, functional content pipeline. Not yet deployed.
+**Demigod** — A lifestyle brand and personal intelligence studio. LifeOS is the hub product, aggregating data across life domains and surfacing recommendations through conversation. *WealthOS* and *HealthOS* are standalone domain apps that integrate natively with LifeOS and return enriched data to the hub.
 
-**Demigod** — A lifestyle brand and personal intelligence studio. LifeOS is the hub product for personal systems, guidance, and future domain-specific companion products.
-
-- *LifeOS* — Ecosystem hub. Aggregates data across life domains and surfaces recommendations through conversation.
-  - *WealthOS* — Standalone financial intelligence app. Natively integrates with LifeOS, segments financial tools, and returns insights to the hub.
-  - *HealthOS* — Standalone health intelligence app. Same integration model — feeds enriched health data back to LifeOS.
-
-**Enigma** — A robotics brand and robotics studio. Begins as a robotics research and product line inside the portfolio structure.
-
-- *Humanoid* — Robotics product line.
-- *Cartesian* — Robotics product line.
+**Enigma** — A robotics brand and studio that begins as a research and product-development effort inside the portfolio. Active product lines are *Humanoid* and *Cartesian*, both exploratory for now.
 
 Constellation ships first. Demigod follows. Enigma remains exploratory. Atlas powers execution. Beacon powers intelligence and learns from portfolio reality.
 
@@ -140,11 +126,21 @@ Constellation ships first. Demigod follows. Enigma remains exploratory. Atlas po
 &nbsp;
 
 ```mermaid
-flowchart TD
-    D(["Define"]) --> E(["Explore"])
-    E --> B(["Develop"])
-    B --> V(["Validate"])
-    V --> I(["Iterate"])
+flowchart TB
+    D(("Define"))
+    subgraph s1[" "]
+        direction LR
+        I(("Iterate")) ~~~ E(("Explore"))
+    end
+    subgraph s2[" "]
+        direction LR
+        V(("Validate")) ~~~ B(("Develop"))
+    end
+
+    D --> E
+    E --> B
+    B --> V
+    V --> I
     I --> D
 
     style D fill:#0a0a0a,stroke:#aaa,color:#fff
@@ -152,6 +148,8 @@ flowchart TD
     style B fill:#1a1a1a,stroke:#555,color:#ccc
     style V fill:#222,stroke:#444,color:#bbb
     style I fill:#2a2a2a,stroke:#333,color:#aaa
+    style s1 fill:none,stroke:none,color:none
+    style s2 fill:none,stroke:none,color:none
 ```
 
 <div align="center">
@@ -172,10 +170,9 @@ Every cycle begins with an open question — a problem worth solving or an oppor
 
 <br>
 
-| Founder | Focus |
-|:---|:---|
-| [Ryder Wolf](https://github.com/ryderderder) | Strategy, systems architecture, AI workflows, documentation systems, product direction, UX |
-| Pierre | Implementation, experimentation, deployment, and operational follow-through |
+**[Ryder Wolf](https://github.com/ryderderder)** spent six years in fintech within the hospitality sector, automating finance, accounting, and hotel operations before founding Blackdoor. At Blackdoor, he owns portfolio strategy, systems architecture, AI workflow design, documentation systems, and product direction — the thinking, structure, and taste behind how the group is built.
+
+**Pierre** brings a background in hospitality management and technology, with hands-on experience vibe coding and deploying apps and researching the cutting edge of AI tools and workflows. At Blackdoor, he drives implementation, experimentation, and operational follow-through — translating strategy into running systems.
 
 <br>
 
