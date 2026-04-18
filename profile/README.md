@@ -1,29 +1,52 @@
-<br>
-<br>
-
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/Blackdoor-Industries/.github/main/profile/assets/logo.png" alt="Blackdoor Industries" width="400">
+<img src="https://raw.githubusercontent.com/Blackdoor-Industries/.github/main/profile/assets/logo.png" alt="Blackdoor Industries" width="360">
+
+<br><br>
+
+**A portfolio of commercial assets powered by an AI workforce.**
+
+<sub>Entertainment &nbsp;·&nbsp; Lifestyle &nbsp;·&nbsp; Robotics</sub>
 
 </div>
 
 <br>
 
-<h3 align="left">A portfolio of commercial assets<br>
-powered by an AI workforce.</h3>
+---
 
-<p align="right">Blackdoor owns and operates ventures across<br>
-entertainment, lifestyle, robotics, and artificial intelligence.</p>
+Blackdoor owns and operates ventures across entertainment, lifestyle, and robotics — each powered by **Atlas**, a shared AI workforce and operating system that coordinates agents, tools, workflows, playbooks, and integrations across the group.
 
-<p align="left">Blackdoor developed Atlas as the portfolio's operating system.</p>
+*The mission is to prove that companies no longer need to be limited by the amount of human labor they can hire, manage, or afford.*
 
-<p align="right">Atlas equips each venture with:<br>
-agents, tools, data, policies, SOPs, reporting cadences,<br>
-review systems, and improvement loops built to support<br>
-repeatable execution, governance, and scale.</p>
+<br>
 
-<p align="left"><em>The mission is to prove that companies no longer need to be limited<br>
-by the amount of human labor they can hire, manage, or afford.</em></p>
+<table><tr>
+<td align="center" valign="top" width="33%">
+<br>
+<b>Blackdoor</b>
+<br><br>
+<sub>Parent company and capital allocator. Sets strategy, governs structure, and deploys resources across the portfolio. Build to own. Structure to sell. Hold selectively.</sub>
+<br><br>
+</td>
+<td align="center" valign="top" width="34%">
+<br>
+<b>Atlas</b>
+<br><br>
+<sub>Shared AI workforce and operating system. Agents, tools, playbooks, and integrations — powering execution across every venture in the portfolio.</sub>
+<br><br>
+</td>
+<td align="center" valign="top" width="33%">
+<br>
+<b>Portfolio</b>
+<br><br>
+<sub>Constellation · Demigod · Enigma. Each venture runs on Atlas and owns its market independently.</sub>
+<br><br>
+</td>
+</tr></table>
+
+<br>
+
+---
 
 <details open>
 <summary><h2>Organization</h2></summary>
@@ -106,31 +129,28 @@ flowchart TB
 
 &nbsp;
 
-**Blackdoor Industries** — The commercial asset portfolio and parent company. Owns group strategy, portfolio logic, capital allocation, and the doctrine that keeps the ventures coherent. Blackdoor is early-stage by revenue, but serious by architecture: the group is being built around profitable, autonomously operated companies rather than disconnected experiments.
-
-**Atlas** — Blackdoor's AI workforce and operating system. Atlas coordinates agents, tools, workflows, playbooks, and integrations across the group. It is internal-first today: what Blackdoor uses to build and operate. External commercialization may come later if the system matures enough to sell without weakening the portfolio.
-
-**Beacon** — Blackdoor's reconnaissance and performance-analysis function. Beacon studies external opportunities, internal performance, process quality, and portfolio reality so the group can decide what to study, build, partner with, acquire, improve, or stop.
-
-**Constellation** — An entertainment brand and video game studio using Atlas for leverage behind the scenes. Produces interactive titles with a focus on narrative, product taste, and reusable studio capability.
-
-- *Shootout* — Competitive multiplayer action title. Pre-production.
-- *Kept Close* — Adult story collection for curious men, where closeness becomes temptation. TypeScript, React 19, Three.js. Working codebase, 3D scrapbook UI, functional content pipeline. Not yet deployed.
-
-**Demigod** — A lifestyle brand and personal intelligence studio. LifeOS is the hub product for personal systems, guidance, and future domain-specific companion products.
-
-- *LifeOS* — Ecosystem hub. Aggregates data across life domains and surfaces recommendations through conversation.
-  - *WealthOS* — Standalone financial intelligence app. Natively integrates with LifeOS, segments financial tools, and returns insights to the hub.
-  - *HealthOS* — Standalone health intelligence app. Same integration model — feeds enriched health data back to LifeOS.
-
-**Enigma** — A robotics brand and robotics studio. Begins as a robotics research and product line inside the portfolio structure.
-
-- *Humanoid* — Robotics product line.
-- *Cartesian* — Robotics product line.
-
-Constellation ships first. Demigod follows. Enigma remains exploratory. Atlas powers execution. Beacon powers intelligence and learns from portfolio reality.
+| Entity | Role | What it does |
+|:---|:---|:---|
+| **Blackdoor** | Commercial asset portfolio | Parent company. Owns group strategy, portfolio logic, capital allocation, and the doctrine that keeps the ventures coherent. Early-stage by revenue, serious by architecture. |
+| **Atlas** | AI workforce + operating system | Coordinates agents, tools, workflows, and integrations across the group. Internal-first today; external commercialization possible if the system matures enough to sell without weakening the portfolio. |
+| **Beacon** | Reconnaissance + performance analysis | Studies external opportunities, internal performance, and portfolio reality so the group can decide what to build, partner with, acquire, improve, or stop. |
+| **Constellation** | Entertainment brand + video game studio | Uses Atlas for execution leverage. Produces interactive titles with focus on narrative, product taste, and reusable studio capability. |
+| **Demigod** | Lifestyle brand + personal intelligence studio | LifeOS is the hub for personal systems, guidance, and domain-specific companion products. |
+| **Enigma** | Robotics brand + studio | Robotics research and product lines inside the portfolio structure. Exploratory for now. |
 
 </details>
+
+---
+
+## What We're Building
+
+| Brand | Product | Status | Description |
+|:---|:---|:---:|:---|
+| **Constellation** | [Kept Close](https://github.com/Blackdoor-Industries/constellation-vngame-app) | ![Developing](https://img.shields.io/badge/Developing-333?style=flat-square) | Adult story collection for curious men. TypeScript, React 19, Three.js — working 3D scrapbook UI and functional content pipeline. |
+| **Constellation** | Shootout | ![Pre-production](https://img.shields.io/badge/Pre--production-555?style=flat-square) | Competitive multiplayer action title. |
+| **Demigod** | LifeOS | ![Researching](https://img.shields.io/badge/Researching-555?style=flat-square) | Personal systems hub. Aggregates life-domain data and surfaces recommendations through conversation. |
+| **Demigod** | WealthOS | ![Planned](https://img.shields.io/badge/Planned-444?style=flat-square) | Standalone financial intelligence, natively integrated with LifeOS. |
+| **Demigod** | HealthOS | ![Planned](https://img.shields.io/badge/Planned-444?style=flat-square) | Standalone health intelligence, same integration model. |
 
 ---
 
@@ -181,10 +201,7 @@ Every cycle begins with an open question — a problem worth solving or an oppor
 
 ---
 
-<details>
-<summary><h2>Repositories</h2></summary>
-
-&nbsp;
+## Repositories
 
 | Subsidiary | Repository | Purpose | Status |
 |:---|:---|:---|:---:|
@@ -214,8 +231,6 @@ Every cycle begins with an open question — a problem worth solving or an oppor
 ![Researching](https://img.shields.io/badge/Researching-555?style=flat-square) Planning and analysis phase
 &emsp;
 ![Scaffolded](https://img.shields.io/badge/Scaffolded-888?style=flat-square) Structure exists, awaiting active work
-
-</details>
 
 </details>
 
