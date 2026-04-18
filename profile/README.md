@@ -114,8 +114,6 @@ flowchart TB
 
 **Enigma** — A robotics brand and studio that begins as a research and product-development effort inside the portfolio. Active product lines are *Humanoid* and *Cartesian*, both exploratory for now.
 
-Constellation ships first. Demigod follows. Enigma remains exploratory. Atlas powers execution. Beacon powers intelligence and learns from portfolio reality.
-
 </details>
 
 ---
