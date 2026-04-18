@@ -22,8 +22,9 @@ agents, tools, data, policies, SOPs, reporting cadences,<br>
 review systems, and improvement loops built to support<br>
 repeatable execution, governance, and scale.</p>
 
-<p align="left"><em>The mission is to prove that companies no longer need to be limited<br>
-by the amount of human labor they can hire, manage, or afford.</em></p>
+<p align="left"><em>The mission is to build commercially valuable companies<br>
+without being limited by the amount of human labor<br>
+a small team can hire, manage, or afford.</em></p>
 
 <details open>
 <summary><h2>Organization</h2></summary>
@@ -104,6 +105,8 @@ flowchart TB
     linkStyle 0,1 stroke:#ffffff,stroke-width:0px
 ```
 
+Three ventures sit under Blackdoor: Constellation (Entertainment), Demigod (Lifestyle), Enigma (Robotics). Each runs as its own operating company on shared infrastructure — Atlas for execution, Beacon for intelligence.
+
 &nbsp;
 
 **Blackdoor Industries** — The commercial asset portfolio and parent company. Owns group strategy, portfolio logic, capital allocation, and the doctrine that keeps the ventures coherent. Blackdoor is early-stage by revenue, but serious by architecture: the group is being built around profitable, autonomously operated companies rather than disconnected experiments.
@@ -112,7 +115,7 @@ flowchart TB
 
 **Beacon** — Blackdoor's reconnaissance and performance-analysis function. Beacon studies external opportunities, internal performance, process quality, and portfolio reality so the group can decide what to study, build, partner with, acquire, improve, or stop.
 
-**Constellation** — An entertainment brand and video game studio using Atlas for leverage behind the scenes. Produces interactive titles with a focus on narrative, product taste, and reusable studio capability.
+**Constellation** — An entertainment brand and video game studio. Atlas handles studio operations in the background — production tooling, content pipelines, and coordination. Produces interactive titles with a focus on narrative design, editorial judgment, and reusable studio capability.
 
 - *Shootout* — Competitive multiplayer action title. Pre-production.
 - *Kept Close* — Adult story collection for curious men, where closeness becomes temptation. TypeScript, React 19, Three.js. Working codebase, 3D scrapbook UI, functional content pipeline. Not yet deployed.
@@ -123,12 +126,12 @@ flowchart TB
   - *WealthOS* — Standalone financial intelligence app. Natively integrates with LifeOS, segments financial tools, and returns insights to the hub.
   - *HealthOS* — Standalone health intelligence app. Same integration model — feeds enriched health data back to LifeOS.
 
-**Enigma** — A robotics brand and robotics studio. Begins as a robotics research and product line inside the portfolio structure.
+**Enigma** — A robotics brand and robotics studio. Develops two product lines in parallel.
 
 - *Humanoid* — Robotics product line.
 - *Cartesian* — Robotics product line.
 
-Constellation ships first. Demigod follows. Enigma remains exploratory. Atlas powers execution. Beacon powers intelligence and learns from portfolio reality.
+Constellation ships first. Demigod follows. Enigma builds in parallel. Atlas powers execution. Beacon powers intelligence and learns from portfolio reality.
 
 </details>
 
@@ -175,7 +178,7 @@ Every cycle begins with an open question — a problem worth solving or an oppor
 | Founder | Focus |
 |:---|:---|
 | [Ryder Wolf](https://github.com/ryderderder) | Strategy, systems architecture, AI workflows, documentation systems, product direction, UX |
-| Pierre | Implementation, experimentation, deployment, and operational follow-through |
+| [Pierre](https://github.com/pierre335) | Implementation, experimentation, deployment, and operational follow-through |
 
 <br>
 
@@ -199,23 +202,9 @@ Every cycle begins with an open question — a problem worth solving or an oppor
 | Demigod | [`demigod-lifeos-app`](https://github.com/Blackdoor-Industries/demigod-lifeos-app) | LifeOS application code | ![Scaffolded](https://img.shields.io/badge/Scaffolded-888?style=flat-square) |
 | Demigod | [`demigod-lifeos-docs`](https://github.com/Blackdoor-Industries/demigod-lifeos-docs) | LifeOS product specs and design | ![Researching](https://img.shields.io/badge/Researching-555?style=flat-square) |
 | Demigod | [`demigod-lifeos-site`](https://github.com/Blackdoor-Industries/demigod-lifeos-site) | LifeOS marketing website | ![Scaffolded](https://img.shields.io/badge/Scaffolded-888?style=flat-square) |
-
-&nbsp;
-
-<details>
-<summary><sub>Status legend</sub></summary>
-
-&nbsp;
-
-![Operational](https://img.shields.io/badge/Operational-0e8a16?style=flat-square) Actively maintained, serving its purpose
-&emsp;
-![Developing](https://img.shields.io/badge/Developing-333?style=flat-square) Active code or content work
-&emsp;
-![Researching](https://img.shields.io/badge/Researching-555?style=flat-square) Planning and analysis phase
-&emsp;
-![Scaffolded](https://img.shields.io/badge/Scaffolded-888?style=flat-square) Structure exists, awaiting active work
-
-</details>
+| Enigma | [`enigma-docs`](https://github.com/Blackdoor-Industries/enigma-docs) | Robotics venture strategy and business planning | ![Researching](https://img.shields.io/badge/Researching-555?style=flat-square) |
+| Enigma | [`enigma-humanoid-docs`](https://github.com/Blackdoor-Industries/enigma-humanoid-docs) | Humanoid product line — specs and operations | ![Scaffolded](https://img.shields.io/badge/Scaffolded-888?style=flat-square) |
+| Enigma | [`enigma-cartesian-docs`](https://github.com/Blackdoor-Industries/enigma-cartesian-docs) | Cartesian product line — specs and operations | ![Scaffolded](https://img.shields.io/badge/Scaffolded-888?style=flat-square) |
 
 </details>
 
@@ -231,8 +220,7 @@ Every repository contains a `CLAUDE.md` at its root with agent-specific context,
 Org-wide standards:
 
 - **Labels**: `type:` · `priority:` · `status:` · `subsidiary:` — 18 labels across 4 taxonomies, applied consistently
-- **Branches**: `type/short-description` by default; direct `main` updates only by explicit founder instruction
-- **CI**: Reusable workflows from `.github` — markdownlint on all docs repos, HTML validation, auto-assign on issues and PRs
+- **Branches**: `type/short-description`; all changes via PR — no direct pushes to `main`
 - **PR workflow**: Branch → implement → CI passes → human review → merge
 
 Agent infrastructure and playbooks are documented in [`atlas-docs`](https://github.com/Blackdoor-Industries/atlas-docs).
