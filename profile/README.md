@@ -73,7 +73,6 @@ flowchart TB
 
     BD --> INTERNAL
     INTERNAL --> PORT
-    PORT -.-> INTERNAL
     PORT --> ENT
     PORT --> LIFEIND
     PORT --> ROBOTICS
