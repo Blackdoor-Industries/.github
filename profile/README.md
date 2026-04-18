@@ -152,7 +152,7 @@ flowchart TB
 
 <div align="center">
 
-<sub><strong>Define</strong> problems and opportunities &emsp; <strong>Explore</strong> research and analysis &emsp; <strong>Develop</strong> agents build on branches &emsp; <strong>Validate</strong> CI, review, feedback &emsp; <strong>Iterate</strong> learn and refine</sub>
+<sub><strong>Define</strong> problems and opportunities &emsp; <strong>Explore</strong> research and analysis &emsp; <strong>Develop</strong> agents build on branches &emsp; <strong>Iterate</strong> learn and refine &emsp; <strong>Validate</strong> CI, review, feedback</sub>
 
 </div>
 
@@ -170,7 +170,7 @@ Every cycle begins with an open question — a problem worth solving or an oppor
 
 **[Ryder Wolf](https://github.com/ryderderder)** spent six years in fintech within the hospitality sector, automating finance, accounting, and hotel operations before founding Blackdoor. At Blackdoor, he owns portfolio strategy, systems architecture, AI workflow design, documentation systems, and product direction — the thinking, structure, and taste behind how the group is built.
 
-**Pierre** brings a background in hospitality management and technology, with hands-on experience vibe coding and deploying apps and researching the cutting edge of AI tools and workflows. At Blackdoor, he drives implementation, experimentation, and operational follow-through — translating strategy into running systems.
+**[Pierre](https://github.com/pierre335)** brings a background in hospitality management and technology, with hands-on experience vibe coding and deploying apps and researching the cutting edge of AI tools and workflows. At Blackdoor, he drives implementation, experimentation, and operational follow-through — translating strategy into running systems.
 
 <br>
 
