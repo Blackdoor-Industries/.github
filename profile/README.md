@@ -173,45 +173,6 @@ Every cycle begins with an open question — a problem worth solving or an oppor
 
 <br>
 
----
-
-<details>
-<summary><h2>Repositories</h2></summary>
-
-&nbsp;
-
-| Subsidiary | Repository | Purpose | Status |
-|:---|:---|:---|:---:|
-| Blackdoor | [`blackdoor-docs`](https://github.com/Blackdoor-Industries/blackdoor-docs) | Corporate strategy, governance, and operations | ![Operational](https://img.shields.io/badge/Operational-0e8a16?style=flat-square) |
-| Atlas | [`atlas-docs`](https://github.com/Blackdoor-Industries/atlas-docs) | Agent infrastructure, playbooks, integration catalog | ![Operational](https://img.shields.io/badge/Operational-0e8a16?style=flat-square) |
-| Constellation | [`constellation-docs`](https://github.com/Blackdoor-Industries/constellation-docs) | Studio strategy and business planning | ![Researching](https://img.shields.io/badge/Researching-555?style=flat-square) |
-| Constellation | [`constellation-vngame-app`](https://github.com/Blackdoor-Industries/constellation-vngame-app) | Kept Close — adult story collection for curious men | ![Developing](https://img.shields.io/badge/Developing-333?style=flat-square) |
-| Constellation | [`constellation-vngame-docs`](https://github.com/Blackdoor-Industries/constellation-vngame-docs) | Kept Close specs, design docs, and operations | ![Developing](https://img.shields.io/badge/Developing-333?style=flat-square) |
-| Constellation | [`constellation-vngame-site`](https://github.com/Blackdoor-Industries/constellation-vngame-site) | Kept Close marketing website | ![Scaffolded](https://img.shields.io/badge/Scaffolded-888?style=flat-square) |
-| Constellation | [`constellation-shootout-docs`](https://github.com/Blackdoor-Industries/constellation-shootout-docs) | Shootout — pre-production concepts | ![Scaffolded](https://img.shields.io/badge/Scaffolded-888?style=flat-square) |
-| Demigod | [`demigod-docs`](https://github.com/Blackdoor-Industries/demigod-docs) | Life-intelligence strategy and business planning | ![Researching](https://img.shields.io/badge/Researching-555?style=flat-square) |
-| Demigod | [`demigod-lifeos-app`](https://github.com/Blackdoor-Industries/demigod-lifeos-app) | LifeOS application code | ![Scaffolded](https://img.shields.io/badge/Scaffolded-888?style=flat-square) |
-| Demigod | [`demigod-lifeos-docs`](https://github.com/Blackdoor-Industries/demigod-lifeos-docs) | LifeOS product specs and design | ![Researching](https://img.shields.io/badge/Researching-555?style=flat-square) |
-| Demigod | [`demigod-lifeos-site`](https://github.com/Blackdoor-Industries/demigod-lifeos-site) | LifeOS marketing website | ![Scaffolded](https://img.shields.io/badge/Scaffolded-888?style=flat-square) |
-
-&nbsp;
-
-<details>
-<summary><sub>Status legend</sub></summary>
-
-&nbsp;
-
-![Operational](https://img.shields.io/badge/Operational-0e8a16?style=flat-square) Actively maintained, serving its purpose
-&emsp;
-![Developing](https://img.shields.io/badge/Developing-333?style=flat-square) Active code or content work
-&emsp;
-![Researching](https://img.shields.io/badge/Researching-555?style=flat-square) Planning and analysis phase
-&emsp;
-![Scaffolded](https://img.shields.io/badge/Scaffolded-888?style=flat-square) Structure exists, awaiting active work
-
-</details>
-
-</details>
 
 ---
 
