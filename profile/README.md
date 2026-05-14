@@ -19,8 +19,7 @@ agents, tools, data, policies, SOPs, reporting cadences,<br>
 review systems, and improvement loops built to support<br>
 repeatable execution, governance, and scale.</p>
 
-<p align="left"><em>The mission is to prove that companies no longer need to be limited<br>
-by the amount of human labor they can hire, manage, or afford.</em></p>
+<p align="left"><em>Our mission is to develop technlogies that allows businesses to achieve more than humanly possible.</em></p>
 
 <details open>
 <summary><h2>Organization</h2></summary>
