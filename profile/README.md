@@ -51,7 +51,7 @@ flowchart TB
         direction LR
         ATLAS["Atlas<br/>AI&nbsp;Workforce&nbsp;+&nbsp;Operating&nbsp;System<br/>powers execution"]:::system
         PLUS["<b>+</b>"]:::plus
-        BEACON["Beacon<br/>Reconnaissance&nbsp;+&nbsp;Performance&nbsp;Analysis<br/>powers intelligence"]:::system
+        BEACON["Beacon<br/>Consulting&nbsp;Arm<br/>informs Atlas"]:::system
         ATLAS ~~~ PLUS ~~~ BEACON
     end
 
@@ -103,9 +103,9 @@ flowchart TB
 
 **Blackdoor Industries** — The commercial asset portfolio and parent company. Owns group strategy, portfolio logic, capital allocation, and the doctrine that keeps the ventures coherent. Blackdoor is early-stage by revenue, but serious by architecture: the group is being built around profitable, autonomously operated companies rather than disconnected experiments.
 
-**Atlas** — Blackdoor's AI workforce and operating system. Atlas coordinates agents, tools, workflows, playbooks, and integrations across the group. It is internal-first today: what Blackdoor uses to build and operate. External commercialization may come later if the system matures enough to sell without weakening the portfolio.
+**Atlas** — Blackdoor's AI workforce and operating system. The current operating layer is this agent team. A non-Swift platform will be planned with the founders and built later; the existing Swift Mac workspace stays internal. Atlas is how the group operates today, not a product a customer logs into.
 
-**Beacon** — Blackdoor's reconnaissance and performance-analysis function. Beacon studies external opportunities, internal performance, process quality, and portfolio reality so the group can decide what to study, build, partner with, acquire, improve, or stop.
+**Beacon** — Blackdoor's consulting arm, internal and external. It informs Atlas for portfolio operations and for client work. The public site and contact pipeline are not built yet.
 
 **Constellation** — An entertainment brand and video game studio using Atlas for leverage behind the scenes. Produces interactive titles with a focus on narrative, product taste, and reusable studio capability. *Kept Close* is an adult story collection built on TypeScript, React 19, and Three.js with a working 3D scrapbook UI and content pipeline, not yet deployed. *Shootout* is a competitive multiplayer action title in pre-production.
 
